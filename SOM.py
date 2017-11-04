@@ -1,12 +1,12 @@
 import math
 import random
+import csv
+import matplotlib.pyplot as plt
 
 class SOM(object):
 
-	def __init__(self, d, n, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None):
+	def __init__(self, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None):
 		#something
-		self.d = d #No. input neurons, 2 for TSP
-		self.n = n #No. output neurons, equals no. cities maybe?
 		if lr0 == None:
 			self.lr0 = 0.2
 		else:
@@ -26,7 +26,6 @@ class SOM(object):
 		self.lrateChanges = [lr0]
 
 	def init_neurons(self, d, count):
-		#return[[0,0],[1,0],[0,1],[1,1]]
 		return[[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*8)]
 
 
@@ -48,11 +47,9 @@ class SOM(object):
 		#You need only compute total distance (D) and show diagrams at every k steps
 		
 		for i in range(iterations+1):
-			self.som_one_step(neurons, inputs, i)
 			if i%k == 0:
-				#print something
-				#plot something
-				pass
+				self.plot_map(inputs, neurons, i)
+			self.som_one_step(neurons, inputs, i)
 			
 	def som_one_step(self, neurons, inputs, i):
 
@@ -92,18 +89,52 @@ class SOM(object):
 		self.lrateChanges.append(self.lr0*math.exp(-t/self.tlr)-self.lr)
 		self.lr = self.lr0*math.exp(-t/self.tlr)
 
-	def main(self, cities):
-		neurons = self.init_neurons(self.d, self.n)
-		cities = cities
-		self.som(neurons = neurons, inputs = cities, iterations = self.n_iterations, k = 100000000000)
-		print(neurons)
+	def main(self, file):
+		noCities, cities = self.read_data(file)
+		scaleFactor, scaled = self.normalize(cities)
+		neurons = self.init_neurons(len(cities[0]), noCities)
+		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
+		print(len(neurons))
+		#for i in range(len(neurons)):
+		#	if (i-2)%5 == 0:
+		#		print(neurons[i][0]*scaleFactor[0], neurons[i][1]*scaleFactor[1])
+
+	def read_data(self, file):
+		cities = []
+		noCities = 0
+		with open('./DataSets/'+ file, newline='') as inputfile:
+			noCities = sum( 1 for _ in inputfile) - 4
+		iterations = 0
+		with open('./DataSets/'+ file, newline='') as inputfile:
+			for row in csv.reader(inputfile, delimiter=' '):
+				if row[0]=='EOF':
+					break
+				if iterations != 0 and iterations != 1:
+					cities.append((float(row[1]),float(row[2])))
+				iterations += 1
+		return noCities, cities
+
+	def normalize(self, data):
+		maxX = max(d[0] for d in data)
+		maxY = max(d[1] for d in data)
+
+		return (maxX, maxY),[(d[0]/maxX, d[1]/maxY) for d in data]
+
+	def plot_map(self, inputs, neurons, iteration):		
+		plt.clf()
+		plt.scatter(*zip(*inputs), color='red', s=20)
+		plt.scatter(*zip(*neurons), color='green', s=5)
+		plt.plot(*zip(*(neurons+[neurons[0]])), color = 'blue')
+		plt.title('Iteration #{:06d}'.format(iteration))
+		plt.axis('off')
+		plt.draw()
+		plt.pause(0.01)
 
 
-som = SOM(d=2,n=4,n_iterations=10000,lr0 = 0.7, tlr = 0.99999, size0 = 4, tsize = 0.99999) 
-#cities = [(0,0)]
-cities = [(0,0),(0,1),(1,0),(1,1)]
-som.main(cities)
 
+
+som = SOM(n_iterations=500,lr0 = 0.7, tlr = 0.999, size0 = 29*8/10, tsize = 0.995) 
+som.main('test.txt')
 
 
 
