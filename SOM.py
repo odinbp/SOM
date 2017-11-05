@@ -27,14 +27,14 @@ class SOM(object):
 		self.lrateChanges = [lr0]
 
 	def init_neurons(self, d, count):
-		return[[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*8)]
+		return[[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*2)]
 
 
 	def discriminant(self, iv, weight):
 		d = 0
 		for i in range(len(iv)):
-			d += (iv[i]-weight[i])**2
-		return d
+			d +=  (iv[i]-weight[i])**2
+		return math.sqrt(d)
 
 	def neighbourhood(self, distance, size):
 		p = 2*size**2
@@ -63,7 +63,6 @@ class SOM(object):
 		for neuronIndex, neuron in enumerate(neurons):
 			d = self.circle_distance(len(neurons), neuronIndex, winningIndex)
 			tn = self.neighbourhood(d, self.size)
-			print(self.size)
 			for i in range(len(neuron)):
 				neuron[i] += self.lr*tn*(iv[i]-neuron[i])
 
@@ -96,7 +95,8 @@ class SOM(object):
 		scaleFactor, scaled = self.normalize(cities)
 		neurons = self.init_neurons(len(cities[0]), noCities)
 		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
-		print(len(neurons))
+		print(self.calculate_distance(scaled, neurons)*scaleFactor)
+
 		#for i in range(len(neurons)):
 		#	if (i-2)%5 == 0:
 		#		print(neurons[i][0]*scaleFactor[0], neurons[i][1]*scaleFactor[1])
@@ -119,24 +119,53 @@ class SOM(object):
 	def normalize(self, data):
 		maxX = max(d[0] for d in data)
 		maxY = max(d[1] for d in data)
+		scale = max(maxX, maxY)
 
-		return (maxX, maxY),[(d[0]/maxX, d[1]/maxY) for d in data]
+		return scale,[(d[0]/scale, d[1]/scale) for d in data]
 
 	def plot_map(self, inputs, neurons, iteration):		
 		plt.clf()
 		plt.scatter(*zip(*inputs), color='red', s=20)
 		plt.scatter(*zip(*neurons), color='green', s=5)
-		plt.plot(*zip(*(neurons+[neurons[0]])), color = 'blue')
+		plt.plot(*zip(*(neurons+[neurons[0]])), color = 'blue') #Binding them all together
 		plt.title('Iteration #{:06d}'.format(iteration))
 		plt.draw()
 		plt.pause(0.1)
 
+	def calculate_distance(self, inputs, neurons):
+
+		match = {} #Map cities to neurons, match in dictionary
+		
+		for i,city in enumerate(inputs):
+			index,neuron = self.find_winner(city, neurons)
+			if index not in match:
+				match[index] = [city] #put in list, can be multiple
+			else: 
+				match[index].append(city)
+
+		#Find the marching order of the cities
+		marching_order = []
+		for j in range(len(neurons)):
+			if j in match: #If neuron is associated with any city
+				marching_order += match[j] #Add the cities to the marching order
+
+		#calculate the distance of the march
+		distance = 0.0
+		for i in range(len(marching_order)-1): #Add distance from start to city 1, city 1 to city 2 etc. 
+			distance += self.discriminant(marching_order[i], marching_order[i+1])
+
+		distance += self.discriminant(marching_order[-1], marching_order[0]) #Add distance to get back to start
+
+		return distance
 
 
 
-som = SOM(n_iterations=1000,lr0 = 0.7, tlr = 995, size0 = 29*8/10, tsize = 195) 
-som.main('test.txt')
 
+
+
+
+som = SOM(n_iterations=2000,lr0 = 0.7, tlr = 995, size0 = 29*8/10, tsize = 195) 
+som.main('1.txt')
 
 
 
