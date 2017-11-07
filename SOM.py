@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 class SOM(object):
 
-	def __init__(self, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None):
+	def __init__(self, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None, multiplier = 2):
 		#something
 		if lr0 == None:
 			self.lr0 = 0.2
@@ -14,12 +14,12 @@ class SOM(object):
 		if size0 == None:
 			self.size0 = max(m,n)/2.0
 		else:
-			self.size0 = float(size0)
-		self.size1 = size0
+			self.size0 = float(size0*multiplier)
 		self.lr = self.lr0
 		self.size = self.size0
 		self.tlr = tlr
 		self.tsize = tsize
+		self.multiplier = multiplier
 
 		self.n_iterations = n_iterations
 
@@ -27,7 +27,7 @@ class SOM(object):
 		self.lrateChanges = [lr0]
 
 	def init_neurons(self, d, count):
-		return[[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*2)]
+		return[[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*self.multiplier)]
 
 
 	def discriminant(self, iv, weight):
@@ -48,8 +48,8 @@ class SOM(object):
 		#You need only compute total distance (D) and show diagrams at every k steps
 		
 		for i in range(iterations+1):
-			if i%k == 0:
-				self.plot_map(inputs, neurons, i)
+			#if i%k == 0:
+			#	self.plot_map(inputs, neurons, i)
 			self.som_one_step(neurons, inputs, i)
 			
 	def som_one_step(self, neurons, inputs, iter):
@@ -95,7 +95,8 @@ class SOM(object):
 		scaleFactor, scaled = self.normalize(cities)
 		neurons = self.init_neurons(len(cities[0]), noCities)
 		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
-		print(self.calculate_distance(scaled, neurons)*scaleFactor)
+		#(print(self.calculate_distance(scaled, neurons)*scaleFactor))
+		return self.calculate_distance(scaled, neurons)*scaleFactor
 
 		#for i in range(len(neurons)):
 		#	if (i-2)%5 == 0:
@@ -105,15 +106,18 @@ class SOM(object):
 		cities = []
 		noCities = 0
 		with open('./DataSets/'+ file, newline='') as inputfile:
-			noCities = sum( 1 for _ in inputfile) - 4
+			noCities = sum( 1 for _ in inputfile) - 8
 		iterations = 0
 		with open('./DataSets/'+ file, newline='') as inputfile:
 			for row in csv.reader(inputfile, delimiter=' '):
 				if row[0]=='EOF':
 					break
-				if iterations != 0 and iterations != 1:
+				if iterations not in range(5):
 					cities.append((float(row[1]),float(row[2])))
 				iterations += 1
+		print("No: ", noCities)
+		for i in range(noCities):
+			print(cities[i])
 		return noCities, cities
 
 	def normalize(self, data):
@@ -160,12 +164,24 @@ class SOM(object):
 
 
 
+def testing(file):
+	f = open('workfile.txt', 'w')
+	for i in range(1,11):
+		for j in range(1,11):
+			for k in range(1,11):
+				for l in range(1,11):
+					for m in range(1,11):
+						som = SOM(n_iterations=2000,lr0 = 1/k, tlr = j*200, size0 = 70/(0.05*k), tsize = 40*l, multiplier = m) 
+						d = som.main(file)
+						f.write("Restult = " + str(round(d,2)) + ", lr0 = " +  str(1/k) + ", tlr = " + str(j*200) + ", size0 = " + str(0.05*k) + ", tsize = " + str(40*l) + ", multiplier = " + str(m) + '\n')
+
+
+#testing('2.txt')
 
 
 
-
-som = SOM(n_iterations=2000,lr0 = 0.7, tlr = 995, size0 = 29*8/10, tsize = 195) 
-som.main('1.txt')
+som = SOM(n_iterations=2000,lr0 = 0.7, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 2) 
+print(som.main('1.txt'))
 
 
 
