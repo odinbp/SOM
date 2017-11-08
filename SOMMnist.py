@@ -29,8 +29,11 @@ class SOMMnist(object):
 
 	def init_neurons(self, d, count):
 		weights = [[random.uniform(0.0,1.0) for i in range(d)] for j in range(100)] 
-		grid = [[0]*10]*10
-		return weights, grid
+		#grid = [[0]*10]*10
+		predicts = []
+		for i in range(100):
+			predicts.append([])
+		return [weights, predicts]
 
 
 	def discriminant(self, iv, weight):
@@ -61,12 +64,12 @@ class SOMMnist(object):
 
 		#Pick a random input vector
 		iv = inputs[random.randint(0,len(inputs)-1)]
-
 		#Find winner of cometition
 		#print(neurons, "somonestep") #feil
-		winningIndex, winner = self.find_winner(iv, neurons)
+		winningIndex, winner = self.find_winner(iv, neurons[0])
+		neurons[1][winningIndex].append(iv[1])
 		iv = iv[0]
-		for neuronIndex, neuron in enumerate(neurons):
+		for neuronIndex, neuron in enumerate(neurons[0]):
 			d = self.grid_distance(neuronIndex, winningIndex)
 			tn = self.neighbourhood(d, self.size)
 			for i in range(len(neuron)):
@@ -86,7 +89,7 @@ class SOMMnist(object):
 				mn = neuron
 		return mi,mn
 
-	#Manhattan distance
+	#Manhattan distance, but far from perfect. At the moment it works because the grid is 10x10
 	def grid_distance(self, neuronIndex, winningIndex):
 		neuronIndex = str(neuronIndex)
 		winningIndex = str(winningIndex)
@@ -113,25 +116,15 @@ class SOMMnist(object):
 		self.lrateChanges.append(self.lr0*math.exp(-t/self.tlr)-self.lr)
 		self.lr = self.lr0*math.exp(-t/self.tlr)
 
-	def main(self):
-		noOfImages, images = self.read_data(5)
-		scaleFactor, scaled = self.normalize(images)
-		#print(len(images[0])) == 2
-		#print(images[5], "images")
-		neurons, grid = self.init_neurons(len(images[0][0]), noOfImages)
-		#print(neurons, "main")
-		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
-		return grid
-
 	def read_data(self, noOfImages):
 		images = []
-
+		a,b = mb.load_all_flat_cases()
 		for i in range(noOfImages):
-			a,b = mb.load_all_flat_cases()
 			images.append([a[i],b[i]])
 
 		return noOfImages, images
 
+	#must be generalized. Not sure if 255 is max for all images
 	def normalize(self, data):
 		scale = 255
 		for d in range(len(data)):
@@ -139,7 +132,32 @@ class SOMMnist(object):
 				data[d][0][e] = data[d][0][e]/scale 
 		return scale,data
 
-som = SOMMnist(n_iterations=200,lr0 = 0.7, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 10) 
+	def main(self):
+		noOfImages, images = self.read_data(100)
+		print("Done with loading")
+		scaleFactor, scaled = self.normalize(images)
+		#print(len(images[0])) == 2
+		#print(images[5], "images")
+		neurons = self.init_neurons(len(images[0][0]), noOfImages)
+		#print(neurons, "main")
+		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
+
+		average = []
+		for i in range(len(neurons[1])):
+			lengthOfList = len(neurons[1][i])
+			if lengthOfList == 0:
+				average.append(None)
+			else:
+				total = 0
+				for i in neurons[1][i]:
+					total += i
+
+				average.append(round(total/lengthOfList))
+
+		#return neurons[1]
+		return average
+
+som = SOMMnist(n_iterations=2000,lr0 = 0.7, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 10) 
 print(som.main())
 
 
