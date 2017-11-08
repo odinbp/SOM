@@ -2,6 +2,7 @@ import math
 import random
 import csv
 import matplotlib.pyplot as plt
+import mnist_basics as mb
 
 class SOMMnist(object):
 
@@ -27,13 +28,17 @@ class SOMMnist(object):
 		self.lrateChanges = [lr0]
 
 	def init_neurons(self, d, count):
-		return[[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*self.multiplier)]
+		weights = [[random.uniform(0.0,1.0) for i in range(d)] for j in range(100)] 
+		grid = [[0]*10]*10
+		return weights, grid
 
 
 	def discriminant(self, iv, weight):
 		d = 0
+		#print(len(iv[0]), "iv") #[[vector], class], må gjøres om til bare [vector]
+		#print(len(weight), "weight") #[x,y] -> wtf?
 		for i in range(len(iv)):
-			d +=  (iv[i]-weight[i])**2
+			d +=  (iv[0][i]-weight[i])**2
 		return math.sqrt(d)
 
 	def neighbourhood(self, distance, size):
@@ -46,7 +51,7 @@ class SOMMnist(object):
 	def som(self, neurons, inputs, iterations, k):
 		
 		#You need only compute total distance (D) and show diagrams at every k steps
-		
+		#print(neurons, "som") #feil
 		for i in range(iterations+1):
 			#if i%k == 0:
 			#	self.plot_map(inputs, neurons, i)
@@ -58,28 +63,46 @@ class SOMMnist(object):
 		iv = inputs[random.randint(0,len(inputs)-1)]
 
 		#Find winner of cometition
+		#print(neurons, "somonestep") #feil
 		winningIndex, winner = self.find_winner(iv, neurons)
-
+		iv = iv[0]
 		for neuronIndex, neuron in enumerate(neurons):
-			d = self.circle_distance(len(neurons), neuronIndex, winningIndex)
+			d = self.grid_distance(neuronIndex, winningIndex)
 			tn = self.neighbourhood(d, self.size)
 			for i in range(len(neuron)):
+				#print(neuron[i], "neuron[i]")
+				#print(iv[i], "iv[i]")
 				neuron[i] += self.lr*tn*(iv[i]-neuron[i])
 
 		self.size_decay(iter)
 		self.learning_decay(iter)
 
 	def find_winner(self, iv, neurons):
-		mi,mn = -100,[999999999999999.0,999999999999999.0]
+		mi,mn = -100,[255]*786
 		for index,neuron in enumerate(neurons):
+			#print(neuron, "BOOOOOYEAH") #denne blir feil
 			if self.discriminant(iv,neuron) < self.discriminant(iv,mn):
 				mi = index
 				mn = neuron
 		return mi,mn
 
-	def circle_distance(self, n, i, j):
-		d = abs(i-j)
-		return min(d, n-d)
+	#Manhattan distance
+	def grid_distance(self, neuronIndex, winningIndex):
+		neuronIndex = str(neuronIndex)
+		winningIndex = str(winningIndex)
+
+		if len(neuronIndex) == 1:
+			neuronIndex+= '0'
+		if len(winningIndex) == 1:
+			winningIndex+='0'
+
+		NIX = int(neuronIndex[0])
+		NIY = int(neuronIndex[1])
+		WIX = int(winningIndex[0])
+		WIY = int(winningIndex[1])
+
+		return (abs(NIX-WIX) + abs(NIY - WIY))
+
 
 	def size_decay(self, t):
 		self.sizeChanges.append(self.size0*math.exp(-t/self.tsize)-self.size)
@@ -90,63 +113,34 @@ class SOMMnist(object):
 		self.lrateChanges.append(self.lr0*math.exp(-t/self.tlr)-self.lr)
 		self.lr = self.lr0*math.exp(-t/self.tlr)
 
-	def main(self, file):
-		noCities, cities = self.read_data(file)
-		scaleFactor, scaled = self.normalize(cities)
-		neurons = self.init_neurons(len(cities[0]), noCities)
+	def main(self):
+		noOfImages, images = self.read_data(5)
+		scaleFactor, scaled = self.normalize(images)
+		#print(len(images[0])) == 2
+		#print(images[5], "images")
+		neurons, grid = self.init_neurons(len(images[0][0]), noOfImages)
+		#print(neurons, "main")
 		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
-		#(print(self.calculate_distance(scaled, neurons)*scaleFactor))
-		return self.calculate_distance(scaled, neurons)*scaleFactor
+		return grid
 
-		#for i in range(len(neurons)):
-		#	if (i-2)%5 == 0:
-		#		print(neurons[i][0]*scaleFactor[0], neurons[i][1]*scaleFactor[1])
-
-	def read_data(self, file):
-		cities = []
-		noCities = 0
+	def read_data(self, noOfImages):
 		images = []
 
-		with open('./DataSets/'+ file, newline='') as inputfile:
-			noImages = sum( 1 for _ in inputfile) - 8
-		iterations = 0
-		with open('./DataSets/'+ file, newline='') as inputfile:
-			for row in csv.reader(inputfile, delimiter=' '):
-				if row[0]=='EOF':
-					break
-				if iterations not in range(5):
-					cities.append((float(row[1]),float(row[2])))
-				iterations += 1
-		print("No: ", noCities)
-		for i in range(noCities):
-			print(cities[i])
-		return noCities, cities
+		for i in range(noOfImages):
+			a,b = mb.load_all_flat_cases()
+			images.append([a[i],b[i]])
+
+		return noOfImages, images
 
 	def normalize(self, data):
-		maxX = max(d[0] for d in data)
-		maxY = max(d[1] for d in data)
-		scale = max(maxX, maxY)
+		scale = 255
+		for d in range(len(data)):
+			for e in range(len(data[d][0])):
+				data[d][0][e] = data[d][0][e]/scale 
+		return scale,data
 
-		return scale,[(d[0]/scale, d[1]/scale) for d in data]
-
-	def plot_map(self, inputs, neurons, iteration):		
-		plt.clf()
-		plt.scatter(*zip(*inputs), color='red', s=20)
-		plt.scatter(*zip(*neurons), color='green', s=5)
-		plt.plot(*zip(*(neurons+[neurons[0]])), color = 'blue') #Binding them all together
-		plt.title('Iteration #{:06d}'.format(iteration))
-		plt.draw()
-		plt.pause(0.1)
-
-
-
-
-
-#som = SOM(n_iterations=2000,lr0 = 0.7, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 2) 
-#print(som.main('1.txt'))
-
-
-
+som = SOMMnist(n_iterations=200,lr0 = 0.7, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 10) 
+print(som.main())
 
 
 
