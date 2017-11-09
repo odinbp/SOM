@@ -3,6 +3,7 @@ import random
 import csv
 import matplotlib.pyplot as plt
 import mnist_basics as mb
+import numpy as np
 
 testVector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -27,7 +28,7 @@ testClass = 5
 
 class SOMMnist(object):
 
-	def __init__(self, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None, multiplier = 2):
+	def __init__(self, noOfNeuron, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None, multiplier = 2):
 		#something
 		if lr0 == None:
 			self.lr0 = 0.2
@@ -47,12 +48,13 @@ class SOMMnist(object):
 
 		self.sizeChanges = [size0]
 		self.lrateChanges = [lr0]
+		self.noOfNeuron = noOfNeuron
+		self.liste = self.makeList(noOfNeuron)
 
 	def init_neurons(self, d, count):
-		weights = [[random.uniform(0.0,1.0) for i in range(d)] for j in range(100)] 
-		#grid = [[0]*10]*10
+		weights = [[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*count)] 
 		predicts = []
-		for i in range(100):
+		for i in range(count*count):
 			predicts.append([])
 		return [weights, predicts]
 
@@ -70,14 +72,37 @@ class SOMMnist(object):
 		return math.exp((-distance**2)/p)
 		
 
-	def som(self, neurons, inputs, iterations, k):
+	def som(self, neurons, inputs, iterations, k, noOfNeuron):
 		
 		#You need only compute total distance (D) and show diagrams at every k steps
 		#print(neurons, "som") #feil
 		for i in range(iterations+1):
-			self.som_one_step(neurons, inputs, i)
-			
-	def som_one_step(self, neurons, inputs, iter):
+			self.som_one_step(neurons, inputs, i, noOfNeuron)
+		################
+			if i%k == 0:
+				average = []
+				for i in range(len(neurons[1])):
+					lengthOfList = len(neurons[1][i])
+					if lengthOfList == 0:
+						average.append(None)
+					else:
+						total = 0
+						for i in neurons[1][i]:
+							total += i
+
+						average.append(round(total/lengthOfList))
+
+				index = 0
+				for i in range(10):
+					output = []
+					for j in range(10):
+						output.append(average[index])
+						index += 1
+					print(output)
+		#######################################
+		
+
+	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
 
 		#Pick a random input vector
 		iv = inputs[random.randint(0,len(inputs)-1)]
@@ -86,7 +111,7 @@ class SOMMnist(object):
 		neurons[1][winningIndex].append(iv[1])
 		iv = iv[0]
 		for neuronIndex, neuron in enumerate(neurons[0]):
-			d = self.grid_distance(neuronIndex, winningIndex)
+			d = self.grid_distance(neuronIndex, winningIndex, noOfNeuron)
 			tn = self.neighbourhood(d, self.size)
 			for i in range(len(neuron)):
 				neuron[i] += self.lr*tn*(iv[i]-neuron[i])
@@ -97,29 +122,36 @@ class SOMMnist(object):
 	def find_winner(self, iv, neurons):
 		mi,mn = -100,[255]*786
 		for index,neuron in enumerate(neurons):
-			#print(neuron, "BOOOOOYEAH") #denne blir feil
 			if self.discriminant(iv,neuron) < self.discriminant(iv,mn):
 				mi = index
 				mn = neuron
 		return mi,mn
 
-	#Manhattan distance, but far from perfect. At the moment it works because the grid is 10x10
-	def grid_distance(self, neuronIndex, winningIndex):
-		neuronIndex = str(neuronIndex)
-		winningIndex = str(winningIndex)
+	def findIndex(self, index,list):
+		for i in range(len(list)):
+			if [index] in list[i]:
+				xIndex = list[i].index([index])
+				yIndex = i
+				break
+		return (xIndex, yIndex)
 
-		if len(neuronIndex) == 1:
-			neuronIndex = '0'+ neuronIndex
-		if len(winningIndex) == 1:
-			winningIndex = '0'+ winningIndex
+	def makeList(self, noOfNeuron):
+		liste = []
+		for i in range(0,noOfNeuron*noOfNeuron,noOfNeuron):
+			temp = []
+			for j in range(noOfNeuron):
+				temp.append([i+j])
+			liste.append(temp)
+		return liste
 
-		NIX = int(neuronIndex[0])
-		NIY = int(neuronIndex[1])
-		WIX = int(winningIndex[0])
-		WIY = int(winningIndex[1])
+	def grid_distance(self, neuronIndex, winningIndex, noOfNeuron):
+	
+		neuronX, neuronY = self.findIndex(neuronIndex, self.liste)
+		winningX, winningY = self.findIndex(winningIndex, self.liste)
 
-		return (abs(NIX-WIX) + abs(NIY - WIY))
-
+		#return (abs( neuronX - winningX ) + abs( neuronY - winningY ))
+		return (math.sqrt(( neuronX - winningX )**2 + abs( neuronY - winningY )**2))
+		
 
 	def size_decay(self, t):
 		self.sizeChanges.append(self.size0*math.exp(-t/self.tsize)-self.size)
@@ -148,19 +180,17 @@ class SOMMnist(object):
 
 	def main(self):
 		noOfImages, images = self.read_data(50000)
-		print("Done with loading")
 		scaleFactor, scaled = self.normalize(images)
-		#print(len(images[0])) == 2
-		#print(images[5], "images")
-		neurons = self.init_neurons(len(images[0][0]), noOfImages)
-		#print(neurons, "main")
-		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
+		noOfNeuron = self.noOfNeuron
+		neurons = self.init_neurons(len(images[0][0]), noOfNeuron)#noOfImages)
+		
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
 
 		average = []
 		for i in range(len(neurons[1])):
 			lengthOfList = len(neurons[1][i])
 			if lengthOfList == 0:
-				average.append(None)
+				average.append(0)
 			else:
 				total = 0
 				for i in neurons[1][i]:
@@ -169,19 +199,34 @@ class SOMMnist(object):
 				average.append(round(total/lengthOfList))
 
 		
-		a, b = self.find_winner([testVector, testClass], neurons[0])
-		print(average[a])
+		#Tester på testVector
+		#a, b = self.find_winner([testVector, testClass], neurons[0])
+		#print(average[a])
 
-		#return neurons[1]
 		return average
 
-som = SOMMnist(n_iterations=1000,lr0 = 1, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 10) 
+#tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
+som = SOMMnist(n_iterations=2000,lr0 = 0.3, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 10, noOfNeuron = 10) 
 grid = som.main()
 
+
+data = []
 index = 0
 for i in range(10):
-	lal = []
+	output = []
 	for j in range(10):
-		lal.append(grid[index])
+		output.append(grid[index])
 		index += 1
-	print(lal)
+	data.append(output)
+
+
+
+fig, ax = plt.subplots()
+ax.matshow(data, cmap='seismic')
+
+for (i, j), z in np.ndenumerate(data):
+    ax.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+
+plt.show()
+
+
