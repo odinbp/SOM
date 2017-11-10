@@ -1,1477 +1,214 @@
-Restult = 8931.75, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 1
-Restult = 8490.64, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 2
-Restult = 8521.77, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 3
-Restult = 9130.64, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 4
-Restult = 8403.78, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 5
-Restult = 8348.27, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 6
-Restult = 8363.07, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 7
-Restult = 8797.14, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 8
-Restult = 8798.99, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 9
-Restult = 8714.21, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 40, multiplier = 10
-Restult = 9579.94, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 1
-Restult = 8804.18, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 2
-Restult = 9628.09, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 3
-Restult = 9245.74, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 4
-Restult = 8900.7, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 5
-Restult = 9226.39, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 6
-Restult = 8537.28, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 7
-Restult = 9058.24, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 8
-Restult = 9185.47, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 9
-Restult = 9088.16, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 80, multiplier = 10
-Restult = 9558.11, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 1
-Restult = 9588.93, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 2
-Restult = 10784.53, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 3
-Restult = 10711.49, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 4
-Restult = 10751.55, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 5
-Restult = 10332.39, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 6
-Restult = 10798.45, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 7
-Restult = 10231.8, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 8
-Restult = 11496.76, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 9
-Restult = 10095.62, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 120, multiplier = 10
-Restult = 11300.48, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 1
-Restult = 11463.81, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 2
-Restult = 11562.33, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 3
-Restult = 10460.19, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 4
-Restult = 11345.36, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 5
-Restult = 11610.8, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 6
-Restult = 11477.7, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 7
-Restult = 12169.7, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 8
-Restult = 12873.68, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 9
-Restult = 11326.19, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 160, multiplier = 10
-Restult = 13130.97, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 1
-Restult = 13539.35, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 2
-Restult = 13510.61, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 3
-Restult = 13291.84, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 4
-Restult = 13192.51, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 5
-Restult = 12878.6, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 6
-Restult = 12529.73, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 7
-Restult = 12558.36, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 8
-Restult = 12906.24, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 9
-Restult = 12402.62, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 200, multiplier = 10
-Restult = 15751.46, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 1
-Restult = 16167.81, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 2
-Restult = 15718.36, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 3
-Restult = 15050.59, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 4
-Restult = 16489.43, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 5
-Restult = 16208.27, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 6
-Restult = 16392.23, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 7
-Restult = 15418.36, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 8
-Restult = 14764.3, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 9
-Restult = 16052.03, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 240, multiplier = 10
-Restult = 17949.87, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 1
-Restult = 18060.55, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 2
-Restult = 17949.87, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 3
-Restult = 18243.79, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 4
-Restult = 18066.14, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 5
-Restult = 17884.47, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 6
-Restult = 18069.55, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 7
-Restult = 18012.27, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 8
-Restult = 18165.81, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 9
-Restult = 18349.58, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 280, multiplier = 10
-Restult = 18817.03, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 1
-Restult = 18613.54, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 2
-Restult = 18841.48, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 3
-Restult = 18979.89, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 4
-Restult = 18802.45, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 5
-Restult = 18841.48, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 6
-Restult = 18670.07, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 7
-Restult = 18902.3, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 8
-Restult = 19172.7, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 9
-Restult = 18699.86, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 320, multiplier = 10
-Restult = 19458.26, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 1
-Restult = 19635.09, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 2
-Restult = 18966.05, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 3
-Restult = 18966.05, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 4
-Restult = 19458.26, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 5
-Restult = 19416.42, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 6
-Restult = 19475.73, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 7
-Restult = 19475.73, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 8
-Restult = 19635.09, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 9
-Restult = 19951.84, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 360, multiplier = 10
-Restult = 19505.09, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 1
-Restult = 19458.26, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 2
-Restult = 19527.04, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 3
-Restult = 19527.04, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 4
-Restult = 19635.09, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 5
-Restult = 19458.26, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 6
-Restult = 19547.77, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 7
-Restult = 20149.21, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 8
-Restult = 19547.77, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 9
-Restult = 19458.26, lr0 = 1.0, tlr = 200, size0 = 0.05, tsize = 400, multiplier = 10
-Restult = 9284.98, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 1
-Restult = 9128.8, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 2
-Restult = 8829.9, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 3
-Restult = 9447.68, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 4
-Restult = 9381.05, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 5
-Restult = 9427.09, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 6
-Restult = 9121.89, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 7
-Restult = 9265.76, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 8
-Restult = 9314.82, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 9
-Restult = 9213.72, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 40, multiplier = 10
-Restult = 9752.02, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 1
-Restult = 9659.4, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 2
-Restult = 9620.29, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 3
-Restult = 9738.92, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 4
-Restult = 9670.92, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 5
-Restult = 9855.37, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 6
-Restult = 9496.92, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 7
-Restult = 9406.93, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 8
-Restult = 9347.27, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 9
-Restult = 9779.88, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 80, multiplier = 10
-Restult = 10642.92, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 1
-Restult = 10831.63, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 2
-Restult = 11149.91, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 3
-Restult = 11700.04, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 4
-Restult = 9863.82, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 5
-Restult = 10583.28, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 6
-Restult = 10218.38, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 7
-Restult = 10373.77, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 8
-Restult = 11054.78, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 9
-Restult = 11158.18, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 120, multiplier = 10
-Restult = 12110.62, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 1
-Restult = 13009.56, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 2
-Restult = 11318.3, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 3
-Restult = 11724.76, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 4
-Restult = 11901.36, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 5
-Restult = 11912.38, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 6
-Restult = 10950.93, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 7
-Restult = 11851.27, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 8
-Restult = 11267.24, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 9
-Restult = 11306.01, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 160, multiplier = 10
-Restult = 13421.92, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 1
-Restult = 13735.35, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 2
-Restult = 11550.18, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 3
-Restult = 13525.37, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 4
-Restult = 12408.43, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 5
-Restult = 12854.46, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 6
-Restult = 12509.7, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 7
-Restult = 12783.78, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 8
-Restult = 12836.06, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 9
-Restult = 11676.07, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 200, multiplier = 10
-Restult = 15532.07, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 1
-Restult = 15640.84, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 2
-Restult = 16605.31, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 3
-Restult = 12817.27, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 4
-Restult = 15756.22, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 5
-Restult = 14997.35, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 6
-Restult = 14795.64, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 7
-Restult = 15600.09, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 8
-Restult = 15819.11, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 9
-Restult = 14869.53, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 240, multiplier = 10
-Restult = 17994.86, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 1
-Restult = 17949.87, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 2
-Restult = 18689.6, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 3
-Restult = 18912.92, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 4
-Restult = 18593.13, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 5
-Restult = 16997.08, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 6
-Restult = 18853.13, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 7
-Restult = 18853.13, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 8
-Restult = 17683.32, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 9
-Restult = 18243.85, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 280, multiplier = 10
-Restult = 18793.49, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 1
-Restult = 18270.58, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 2
-Restult = 18332.52, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 3
-Restult = 18976.89, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 4
-Restult = 18534.46, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 5
-Restult = 18657.57, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 6
-Restult = 18458.56, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 7
-Restult = 18346.98, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 8
-Restult = 18701.9, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 9
-Restult = 19225.93, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 320, multiplier = 10
-Restult = 18817.03, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 1
-Restult = 18905.98, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 2
-Restult = 18802.51, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 3
-Restult = 18802.45, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 4
-Restult = 19197.13, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 5
-Restult = 19020.91, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 6
-Restult = 19182.6, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 7
-Restult = 19264.52, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 8
-Restult = 18936.68, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 9
-Restult = 18699.86, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 360, multiplier = 10
-Restult = 18966.05, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 1
-Restult = 19505.09, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 2
-Restult = 19246.26, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 3
-Restult = 19474.39, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 4
-Restult = 18966.05, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 5
-Restult = 19635.09, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 6
-Restult = 18966.05, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 7
-Restult = 19267.19, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 8
-Restult = 19505.09, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 9
-Restult = 19475.73, lr0 = 0.5, tlr = 200, size0 = 0.1, tsize = 400, multiplier = 10
-Restult = 9196.94, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 1
-Restult = 9435.17, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 2
-Restult = 8603.3, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 3
-Restult = 9537.76, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 4
-Restult = 8571.8, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 5
-Restult = 9218.29, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 6
-Restult = 8616.92, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 7
-Restult = 9118.06, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 8
-Restult = 9625.2, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 9
-Restult = 9699.0, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 40, multiplier = 10
-Restult = 10374.45, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 1
-Restult = 9812.44, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 2
-Restult = 10262.39, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 3
-Restult = 8936.63, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 4
-Restult = 10000.17, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 5
-Restult = 9789.61, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 6
-Restult = 10056.05, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 7
-Restult = 10249.84, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 8
-Restult = 9744.53, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 9
-Restult = 10807.07, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 80, multiplier = 10
-Restult = 10982.43, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 1
-Restult = 11183.94, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 2
-Restult = 10881.46, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 3
-Restult = 11839.16, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 4
-Restult = 10754.97, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 5
-Restult = 10852.67, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 6
-Restult = 10911.46, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 7
-Restult = 11609.17, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 8
-Restult = 10911.16, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 9
-Restult = 11313.28, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 120, multiplier = 10
-Restult = 12683.46, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 1
-Restult = 11953.08, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 2
-Restult = 12324.0, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 3
-Restult = 12564.76, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 4
-Restult = 12470.3, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 5
-Restult = 12495.85, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 6
-Restult = 11700.93, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 7
-Restult = 12422.48, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 8
-Restult = 11984.99, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 9
-Restult = 11128.62, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 160, multiplier = 10
-Restult = 13565.66, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 1
-Restult = 13242.54, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 2
-Restult = 13546.31, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 3
-Restult = 13356.05, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 4
-Restult = 14007.77, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 5
-Restult = 12380.62, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 6
-Restult = 13938.53, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 7
-Restult = 14366.87, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 8
-Restult = 11276.15, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 9
-Restult = 12376.95, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 200, multiplier = 10
-Restult = 16173.41, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 1
-Restult = 15167.12, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 2
-Restult = 15467.68, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 3
-Restult = 12896.84, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 4
-Restult = 15555.1, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 5
-Restult = 12850.84, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 6
-Restult = 14889.69, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 7
-Restult = 12527.67, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 8
-Restult = 15974.73, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 9
-Restult = 13052.29, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 240, multiplier = 10
-Restult = 17844.49, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 1
-Restult = 18656.02, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 2
-Restult = 18234.52, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 3
-Restult = 17256.3, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 4
-Restult = 18620.42, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 5
-Restult = 18575.83, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 6
-Restult = 18584.93, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 7
-Restult = 18558.02, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 8
-Restult = 18446.46, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 9
-Restult = 19021.05, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 280, multiplier = 10
-Restult = 18793.49, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 1
-Restult = 19761.12, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 2
-Restult = 18071.91, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 3
-Restult = 18349.58, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 4
-Restult = 18030.01, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 5
-Restult = 19444.78, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 6
-Restult = 18121.6, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 7
-Restult = 18819.82, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 8
-Restult = 18099.33, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 9
-Restult = 18213.96, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 320, multiplier = 10
-Restult = 17943.78, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 1
-Restult = 18509.64, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 2
-Restult = 18613.54, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 3
-Restult = 18883.26, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 4
-Restult = 18841.48, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 5
-Restult = 18530.2, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 6
-Restult = 19225.93, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 7
-Restult = 18699.86, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 8
-Restult = 18658.08, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 9
-Restult = 18418.78, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 360, multiplier = 10
-Restult = 19179.65, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 1
-Restult = 18966.05, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 2
-Restult = 18817.03, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 3
-Restult = 18966.05, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 4
-Restult = 18966.05, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 5
-Restult = 19380.53, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 6
-Restult = 19287.11, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 7
-Restult = 18936.68, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 8
-Restult = 19161.0, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 9
-Restult = 19380.53, lr0 = 0.3333333333333333, tlr = 200, size0 = 0.15000000000000002, tsize = 400, multiplier = 10
-Restult = 10328.76, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 1
-Restult = 9520.87, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 2
-Restult = 9236.09, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 3
-Restult = 9399.98, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 4
-Restult = 9249.74, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 5
-Restult = 8979.07, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 6
-Restult = 9559.0, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 7
-Restult = 9426.76, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 8
-Restult = 9289.22, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 9
-Restult = 9464.45, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 40, multiplier = 10
-Restult = 10877.45, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 1
-Restult = 10320.96, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 2
-Restult = 10471.79, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 3
-Restult = 10358.97, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 4
-Restult = 11081.49, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 5
-Restult = 10560.02, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 6
-Restult = 9914.54, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 7
-Restult = 9347.77, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 8
-Restult = 10766.38, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 9
-Restult = 10079.96, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 80, multiplier = 10
-Restult = 11025.58, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 1
-Restult = 10858.85, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 2
-Restult = 11020.6, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 3
-Restult = 11614.47, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 4
-Restult = 12657.21, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 5
-Restult = 10858.85, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 6
-Restult = 10528.42, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 7
-Restult = 11120.36, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 8
-Restult = 11356.36, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 9
-Restult = 12181.77, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 120, multiplier = 10
-Restult = 13139.42, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 1
-Restult = 11591.11, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 2
-Restult = 13036.49, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 3
-Restult = 11336.66, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 4
-Restult = 11942.01, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 5
-Restult = 12713.29, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 6
-Restult = 12659.99, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 7
-Restult = 11443.72, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 8
-Restult = 11498.11, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 9
-Restult = 11608.36, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 160, multiplier = 10
-Restult = 14032.86, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 1
-Restult = 13853.32, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 2
-Restult = 12250.05, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 3
-Restult = 13318.82, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 4
-Restult = 12685.55, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 5
-Restult = 13411.55, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 6
-Restult = 14142.81, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 7
-Restult = 12679.27, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 8
-Restult = 13326.99, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 9
-Restult = 11559.09, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 200, multiplier = 10
-Restult = 14528.79, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 1
-Restult = 15590.91, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 2
-Restult = 12838.94, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 3
-Restult = 16074.63, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 4
-Restult = 12697.97, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 5
-Restult = 15308.04, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 6
-Restult = 13613.48, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 7
-Restult = 15580.59, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 8
-Restult = 14543.9, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 9
-Restult = 15555.1, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 240, multiplier = 10
-Restult = 19183.9, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 1
-Restult = 18705.09, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 2
-Restult = 17652.29, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 3
-Restult = 18453.74, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 4
-Restult = 18162.21, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 5
-Restult = 18318.39, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 6
-Restult = 18279.51, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 7
-Restult = 18070.7, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 8
-Restult = 18471.16, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 9
-Restult = 16500.75, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 280, multiplier = 10
-Restult = 18210.8, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 1
-Restult = 19119.94, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 2
-Restult = 17976.32, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 3
-Restult = 17960.54, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 4
-Restult = 18798.51, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 5
-Restult = 18018.07, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 6
-Restult = 19228.28, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 7
-Restult = 17834.86, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 8
-Restult = 17957.57, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 9
-Restult = 18012.27, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 320, multiplier = 10
-Restult = 19279.48, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 1
-Restult = 19104.57, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 2
-Restult = 18433.24, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 3
-Restult = 18315.21, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 4
-Restult = 18332.52, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 5
-Restult = 18433.24, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 6
-Restult = 18802.45, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 7
-Restult = 18534.46, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 8
-Restult = 18315.21, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 9
-Restult = 18340.44, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 360, multiplier = 10
-Restult = 18966.05, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 1
-Restult = 18944.14, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 2
-Restult = 18802.51, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 3
-Restult = 18829.55, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 4
-Restult = 18966.05, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 5
-Restult = 18699.86, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 6
-Restult = 18944.14, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 7
-Restult = 18658.08, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 8
-Restult = 19197.13, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 9
-Restult = 18966.05, lr0 = 0.25, tlr = 200, size0 = 0.2, tsize = 400, multiplier = 10
-Restult = 10198.84, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 1
-Restult = 9866.98, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 2
-Restult = 9625.64, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 3
-Restult = 9587.11, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 4
-Restult = 9718.77, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 5
-Restult = 9579.94, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 6
-Restult = 9502.09, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 7
-Restult = 9552.49, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 8
-Restult = 9327.9, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 9
-Restult = 9445.04, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 40, multiplier = 10
-Restult = 10597.16, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 1
-Restult = 10331.76, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 2
-Restult = 10860.81, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 3
-Restult = 9166.39, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 4
-Restult = 10251.77, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 5
-Restult = 10459.4, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 6
-Restult = 9753.55, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 7
-Restult = 10254.67, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 8
-Restult = 10134.25, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 9
-Restult = 11197.4, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 80, multiplier = 10
-Restult = 11399.27, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 1
-Restult = 10808.87, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 2
-Restult = 11591.37, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 3
-Restult = 11322.83, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 4
-Restult = 11484.11, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 5
-Restult = 12222.77, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 6
-Restult = 10967.21, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 7
-Restult = 11159.33, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 8
-Restult = 11816.95, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 9
-Restult = 11836.93, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 120, multiplier = 10
-Restult = 12494.69, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 1
-Restult = 11729.93, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 2
-Restult = 11873.14, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 3
-Restult = 12290.17, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 4
-Restult = 12174.8, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 5
-Restult = 12361.54, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 6
-Restult = 12022.56, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 7
-Restult = 11787.63, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 8
-Restult = 11161.58, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 9
-Restult = 11700.93, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 160, multiplier = 10
-Restult = 14281.04, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 1
-Restult = 13134.79, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 2
-Restult = 13001.25, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 3
-Restult = 13337.26, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 4
-Restult = 13247.58, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 5
-Restult = 13775.42, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 6
-Restult = 13052.65, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 7
-Restult = 12074.38, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 8
-Restult = 12602.13, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 9
-Restult = 12316.71, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 200, multiplier = 10
-Restult = 15334.63, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 1
-Restult = 14673.89, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 2
-Restult = 15063.05, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 3
-Restult = 15621.2, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 4
-Restult = 12077.35, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 5
-Restult = 15592.65, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 6
-Restult = 11942.7, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 7
-Restult = 13792.63, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 8
-Restult = 15967.24, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 9
-Restult = 13414.33, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 240, multiplier = 10
-Restult = 18331.56, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 1
-Restult = 17573.65, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 2
-Restult = 15683.85, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 3
-Restult = 18464.36, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 4
-Restult = 17113.68, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 5
-Restult = 16626.88, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 6
-Restult = 16072.38, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 7
-Restult = 17172.94, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 8
-Restult = 17446.42, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 9
-Restult = 17009.15, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 280, multiplier = 10
-Restult = 18217.53, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 1
-Restult = 17782.7, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 2
-Restult = 17756.56, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 3
-Restult = 18808.14, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 4
-Restult = 17687.52, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 5
-Restult = 17949.87, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 6
-Restult = 18927.82, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 7
-Restult = 17994.86, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 8
-Restult = 17900.8, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 9
-Restult = 17883.28, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 320, multiplier = 10
-Restult = 18888.63, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 1
-Restult = 18110.16, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 2
-Restult = 18292.56, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 3
-Restult = 18316.47, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 4
-Restult = 18340.44, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 5
-Restult = 18144.56, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 6
-Restult = 18095.63, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 7
-Restult = 18764.94, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 8
-Restult = 18919.87, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 9
-Restult = 18226.07, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 360, multiplier = 10
-Restult = 18802.45, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 1
-Restult = 18527.89, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 2
-Restult = 19048.57, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 3
-Restult = 18935.35, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 4
-Restult = 18817.03, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 5
-Restult = 18764.98, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 6
-Restult = 18750.4, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 7
-Restult = 18972.09, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 8
-Restult = 19104.63, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 9
-Restult = 18750.4, lr0 = 0.2, tlr = 200, size0 = 0.25, tsize = 400, multiplier = 10
-Restult = 10843.58, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 1
-Restult = 10251.53, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 2
-Restult = 9658.78, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 3
-Restult = 9330.03, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 4
-Restult = 9449.42, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 5
-Restult = 9263.43, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 6
-Restult = 9616.85, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 7
-Restult = 9782.15, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 8
-Restult = 10986.96, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 9
-Restult = 10041.6, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 40, multiplier = 10
-Restult = 10586.44, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 1
-Restult = 10496.99, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 2
-Restult = 10689.89, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 3
-Restult = 10793.52, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 4
-Restult = 11362.5, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 5
-Restult = 11177.32, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 6
-Restult = 10939.52, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 7
-Restult = 11284.79, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 8
-Restult = 11056.06, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 9
-Restult = 10042.41, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 80, multiplier = 10
-Restult = 12371.24, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 1
-Restult = 11138.99, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 2
-Restult = 11746.58, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 3
-Restult = 11347.45, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 4
-Restult = 12288.95, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 5
-Restult = 11037.47, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 6
-Restult = 11524.49, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 7
-Restult = 11068.89, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 8
-Restult = 10919.56, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 9
-Restult = 10910.58, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 120, multiplier = 10
-Restult = 12477.87, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 1
-Restult = 12764.99, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 2
-Restult = 11716.19, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 3
-Restult = 12668.34, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 4
-Restult = 11291.4, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 5
-Restult = 11842.51, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 6
-Restult = 11378.25, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 7
-Restult = 11961.5, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 8
-Restult = 12644.19, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 9
-Restult = 11275.77, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 160, multiplier = 10
-Restult = 13497.86, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 1
-Restult = 12839.49, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 2
-Restult = 13331.52, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 3
-Restult = 12567.24, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 4
-Restult = 13879.9, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 5
-Restult = 12453.76, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 6
-Restult = 12779.18, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 7
-Restult = 12948.7, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 8
-Restult = 12528.35, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 9
-Restult = 13621.74, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 200, multiplier = 10
-Restult = 14834.87, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 1
-Restult = 14543.76, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 2
-Restult = 13122.78, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 3
-Restult = 12594.2, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 4
-Restult = 14779.0, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 5
-Restult = 14728.56, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 6
-Restult = 13624.12, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 7
-Restult = 12354.26, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 8
-Restult = 15436.46, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 9
-Restult = 13786.47, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 240, multiplier = 10
-Restult = 18283.61, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 1
-Restult = 17473.93, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 2
-Restult = 18640.88, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 3
-Restult = 15590.01, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 4
-Restult = 16600.98, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 5
-Restult = 17841.5, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 6
-Restult = 18081.42, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 7
-Restult = 17127.91, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 8
-Restult = 15868.26, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 9
-Restult = 17143.08, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 280, multiplier = 10
-Restult = 18937.09, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 1
-Restult = 17650.74, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 2
-Restult = 18882.83, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 3
-Restult = 19078.94, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 4
-Restult = 18720.14, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 5
-Restult = 18881.26, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 6
-Restult = 18481.78, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 7
-Restult = 17994.86, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 8
-Restult = 18012.27, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 9
-Restult = 18756.74, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 320, multiplier = 10
-Restult = 19264.38, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 1
-Restult = 18710.05, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 2
-Restult = 18076.61, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 3
-Restult = 18085.07, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 4
-Restult = 18148.6, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 5
-Restult = 18069.75, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 6
-Restult = 18113.8, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 7
-Restult = 18217.53, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 8
-Restult = 19694.85, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 9
-Restult = 17987.93, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 360, multiplier = 10
-Restult = 18802.45, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 1
-Restult = 19225.93, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 2
-Restult = 18370.84, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 3
-Restult = 18339.39, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 4
-Restult = 18787.93, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 5
-Restult = 18538.97, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 6
-Restult = 18586.51, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 7
-Restult = 19039.57, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 8
-Restult = 19158.11, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 9
-Restult = 18321.77, lr0 = 0.16666666666666666, tlr = 200, size0 = 0.30000000000000004, tsize = 400, multiplier = 10
-Restult = 10482.07, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 1
-Restult = 10879.17, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 2
-Restult = 9878.74, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 3
-Restult = 10545.43, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 4
-Restult = 10070.86, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 5
-Restult = 9329.55, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 6
-Restult = 10273.54, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 7
-Restult = 11028.09, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 8
-Restult = 9785.1, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 9
-Restult = 9652.22, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 40, multiplier = 10
-Restult = 11350.01, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 1
-Restult = 11370.47, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 2
-Restult = 10639.62, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 3
-Restult = 10825.77, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 4
-Restult = 10417.24, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 5
-Restult = 9718.35, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 6
-Restult = 11334.76, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 7
-Restult = 10611.91, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 8
-Restult = 10542.01, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 9
-Restult = 11733.62, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 80, multiplier = 10
-Restult = 12157.52, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 1
-Restult = 11082.32, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 2
-Restult = 11058.56, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 3
-Restult = 11276.85, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 4
-Restult = 11603.09, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 5
-Restult = 11742.28, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 6
-Restult = 10958.39, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 7
-Restult = 11672.0, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 8
-Restult = 11289.09, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 9
-Restult = 11161.29, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 120, multiplier = 10
-Restult = 13423.65, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 1
-Restult = 13717.31, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 2
-Restult = 12133.3, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 3
-Restult = 11704.23, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 4
-Restult = 11817.12, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 5
-Restult = 11482.48, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 6
-Restult = 12480.21, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 7
-Restult = 11535.36, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 8
-Restult = 12374.27, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 9
-Restult = 11733.02, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 160, multiplier = 10
-Restult = 13696.56, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 1
-Restult = 12416.58, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 2
-Restult = 13408.05, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 3
-Restult = 13250.83, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 4
-Restult = 13456.48, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 5
-Restult = 12883.35, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 6
-Restult = 13443.27, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 7
-Restult = 12786.06, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 8
-Restult = 13696.84, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 9
-Restult = 12845.65, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 200, multiplier = 10
-Restult = 12590.22, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 1
-Restult = 15202.83, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 2
-Restult = 15072.05, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 3
-Restult = 13369.26, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 4
-Restult = 12631.78, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 5
-Restult = 13243.44, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 6
-Restult = 13006.02, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 7
-Restult = 14357.55, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 8
-Restult = 14951.84, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 9
-Restult = 12876.48, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 240, multiplier = 10
-Restult = 16587.78, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 1
-Restult = 17074.31, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 2
-Restult = 14679.01, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 3
-Restult = 16374.21, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 4
-Restult = 16315.89, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 5
-Restult = 16405.65, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 6
-Restult = 17147.91, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 7
-Restult = 15875.19, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 8
-Restult = 15948.84, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 9
-Restult = 17120.62, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 280, multiplier = 10
-Restult = 18853.13, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 1
-Restult = 17986.65, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 2
-Restult = 18975.15, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 3
-Restult = 18689.6, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 4
-Restult = 18741.55, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 5
-Restult = 18089.15, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 6
-Restult = 17867.9, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 7
-Restult = 18022.99, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 8
-Restult = 18301.81, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 9
-Restult = 18464.36, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 320, multiplier = 10
-Restult = 18927.82, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 1
-Restult = 18210.8, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 2
-Restult = 18217.53, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 3
-Restult = 18121.6, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 4
-Restult = 18640.91, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 5
-Restult = 18012.13, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 6
-Restult = 18701.65, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 7
-Restult = 18759.07, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 8
-Restult = 18086.96, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 9
-Restult = 19023.22, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 360, multiplier = 10
-Restult = 18542.11, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 1
-Restult = 18391.47, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 2
-Restult = 18283.52, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 3
-Restult = 18534.46, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 4
-Restult = 18474.17, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 5
-Restult = 18515.91, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 6
-Restult = 18657.57, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 7
-Restult = 18192.08, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 8
-Restult = 18252.81, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 9
-Restult = 18700.86, lr0 = 0.14285714285714285, tlr = 200, size0 = 0.35000000000000003, tsize = 400, multiplier = 10
-Restult = 10915.94, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 1
-Restult = 9840.94, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 2
-Restult = 10733.66, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 3
-Restult = 10712.1, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 4
-Restult = 10628.19, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 5
-Restult = 10106.02, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 6
-Restult = 11025.6, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 7
-Restult = 10021.46, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 8
-Restult = 10410.08, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 9
-Restult = 10537.23, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 40, multiplier = 10
-Restult = 10580.79, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 1
-Restult = 10725.2, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 2
-Restult = 11865.13, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 3
-Restult = 11169.54, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 4
-Restult = 10989.43, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 5
-Restult = 10797.38, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 6
-Restult = 10351.09, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 7
-Restult = 11163.58, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 8
-Restult = 11044.08, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 9
-Restult = 11225.92, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 80, multiplier = 10
-Restult = 11709.73, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 1
-Restult = 11199.73, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 2
-Restult = 11410.46, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 3
-Restult = 11624.95, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 4
-Restult = 11869.95, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 5
-Restult = 11982.27, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 6
-Restult = 11422.24, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 7
-Restult = 11811.35, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 8
-Restult = 12049.9, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 9
-Restult = 12274.3, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 120, multiplier = 10
-Restult = 13363.57, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 1
-Restult = 13381.07, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 2
-Restult = 12437.83, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 3
-Restult = 12771.71, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 4
-Restult = 11336.38, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 5
-Restult = 12623.82, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 6
-Restult = 13030.11, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 7
-Restult = 12746.53, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 8
-Restult = 11720.85, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 9
-Restult = 12520.48, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 160, multiplier = 10
-Restult = 13393.92, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 1
-Restult = 13467.71, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 2
-Restult = 13220.96, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 3
-Restult = 12469.27, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 4
-Restult = 13641.53, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 5
-Restult = 13129.82, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 6
-Restult = 12809.45, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 7
-Restult = 12804.01, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 8
-Restult = 13531.61, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 9
-Restult = 12814.63, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 200, multiplier = 10
-Restult = 15165.77, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 1
-Restult = 14864.97, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 2
-Restult = 12759.44, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 3
-Restult = 13724.72, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 4
-Restult = 13438.75, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 5
-Restult = 14183.55, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 6
-Restult = 13710.34, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 7
-Restult = 13108.93, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 8
-Restult = 12746.68, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 9
-Restult = 12075.37, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 240, multiplier = 10
-Restult = 17157.53, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 1
-Restult = 16174.73, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 2
-Restult = 15493.89, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 3
-Restult = 15493.89, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 4
-Restult = 14950.89, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 5
-Restult = 16217.32, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 6
-Restult = 16898.56, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 7
-Restult = 17235.87, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 8
-Restult = 17740.98, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 9
-Restult = 15456.22, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 280, multiplier = 10
-Restult = 18561.88, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 1
-Restult = 18530.85, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 2
-Restult = 18226.81, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 3
-Restult = 18098.0, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 4
-Restult = 18808.14, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 5
-Restult = 17524.63, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 6
-Restult = 17989.01, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 7
-Restult = 18584.93, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 8
-Restult = 18464.26, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 9
-Restult = 18427.97, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 320, multiplier = 10
-Restult = 18076.61, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 1
-Restult = 17949.87, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 2
-Restult = 18927.82, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 3
-Restult = 19187.27, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 4
-Restult = 18934.89, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 5
-Restult = 19482.72, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 6
-Restult = 17949.87, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 7
-Restult = 17949.87, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 8
-Restult = 18217.53, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 9
-Restult = 17964.38, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 360, multiplier = 10
-Restult = 18840.39, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 1
-Restult = 18888.63, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 2
-Restult = 18203.74, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 3
-Restult = 19585.63, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 4
-Restult = 18554.84, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 5
-Restult = 18657.57, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 6
-Restult = 18544.94, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 7
-Restult = 18226.07, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 8
-Restult = 18354.96, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 9
-Restult = 18054.63, lr0 = 0.125, tlr = 200, size0 = 0.4, tsize = 400, multiplier = 10
-Restult = 11111.52, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 1
-Restult = 10213.78, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 2
-Restult = 12017.16, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 3
-Restult = 10432.85, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 4
-Restult = 10379.76, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 5
-Restult = 10688.47, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 6
-Restult = 10980.06, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 7
-Restult = 10842.09, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 8
-Restult = 10276.79, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 9
-Restult = 11216.59, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 40, multiplier = 10
-Restult = 11305.9, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 1
-Restult = 12035.52, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 2
-Restult = 11502.46, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 3
-Restult = 11251.72, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 4
-Restult = 10770.52, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 5
-Restult = 11563.45, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 6
-Restult = 10362.01, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 7
-Restult = 11486.28, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 8
-Restult = 11636.81, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 9
-Restult = 10016.04, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 80, multiplier = 10
-Restult = 12126.97, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 1
-Restult = 11759.79, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 2
-Restult = 11226.68, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 3
-Restult = 11573.84, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 4
-Restult = 11547.51, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 5
-Restult = 11057.22, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 6
-Restult = 11071.29, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 7
-Restult = 12285.5, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 8
-Restult = 11372.38, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 9
-Restult = 11418.36, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 120, multiplier = 10
-Restult = 13222.57, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 1
-Restult = 12797.61, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 2
-Restult = 12874.84, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 3
-Restult = 11834.46, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 4
-Restult = 12554.4, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 5
-Restult = 12513.76, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 6
-Restult = 12289.33, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 7
-Restult = 12879.01, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 8
-Restult = 13076.0, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 9
-Restult = 11837.41, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 160, multiplier = 10
-Restult = 14319.59, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 1
-Restult = 13818.72, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 2
-Restult = 13679.24, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 3
-Restult = 13256.08, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 4
-Restult = 13015.76, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 5
-Restult = 13345.92, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 6
-Restult = 12667.04, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 7
-Restult = 11390.32, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 8
-Restult = 12942.21, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 9
-Restult = 12028.35, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 200, multiplier = 10
-Restult = 14950.77, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 1
-Restult = 15294.84, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 2
-Restult = 13752.83, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 3
-Restult = 13478.22, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 4
-Restult = 14228.42, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 5
-Restult = 15523.85, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 6
-Restult = 13453.19, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 7
-Restult = 13490.4, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 8
-Restult = 13316.0, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 9
-Restult = 12869.43, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 240, multiplier = 10
-Restult = 17427.84, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 1
-Restult = 17167.09, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 2
-Restult = 15560.95, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 3
-Restult = 17036.57, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 4
-Restult = 12817.27, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 5
-Restult = 16164.61, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 6
-Restult = 15147.85, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 7
-Restult = 15875.19, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 8
-Restult = 16419.97, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 9
-Restult = 17254.04, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 280, multiplier = 10
-Restult = 17803.27, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 1
-Restult = 18827.09, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 2
-Restult = 18490.37, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 3
-Restult = 17989.01, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 4
-Restult = 17999.72, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 5
-Restult = 18318.39, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 6
-Restult = 17222.6, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 7
-Restult = 17457.87, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 8
-Restult = 18359.69, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 9
-Restult = 18028.53, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 320, multiplier = 10
-Restult = 17972.39, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 1
-Restult = 17634.37, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 2
-Restult = 18816.35, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 3
-Restult = 17949.87, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 4
-Restult = 17994.86, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 5
-Restult = 17314.8, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 6
-Restult = 17883.39, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 7
-Restult = 17634.25, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 8
-Restult = 18012.27, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 9
-Restult = 17895.17, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 360, multiplier = 10
-Restult = 18549.47, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 1
-Restult = 18329.0, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 2
-Restult = 19761.12, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 3
-Restult = 18273.44, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 4
-Restult = 18116.46, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 5
-Restult = 18180.4, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 6
-Restult = 18211.04, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 7
-Restult = 18027.13, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 8
-Restult = 18292.56, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 9
-Restult = 18327.96, lr0 = 0.1111111111111111, tlr = 200, size0 = 0.45, tsize = 400, multiplier = 10
-Restult = 10955.9, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 1
-Restult = 9888.64, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 2
-Restult = 11197.93, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 3
-Restult = 11339.91, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 4
-Restult = 9870.22, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 5
-Restult = 11150.46, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 6
-Restult = 10721.51, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 7
-Restult = 10389.83, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 8
-Restult = 10999.56, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 9
-Restult = 10106.91, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 40, multiplier = 10
-Restult = 11594.0, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 1
-Restult = 11056.4, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 2
-Restult = 11145.38, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 3
-Restult = 11379.93, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 4
-Restult = 11222.79, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 5
-Restult = 11028.3, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 6
-Restult = 11340.58, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 7
-Restult = 10387.2, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 8
-Restult = 11204.2, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 9
-Restult = 11664.24, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 80, multiplier = 10
-Restult = 12878.62, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 1
-Restult = 11914.12, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 2
-Restult = 11885.12, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 3
-Restult = 11825.37, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 4
-Restult = 12329.43, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 5
-Restult = 11614.18, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 6
-Restult = 11587.52, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 7
-Restult = 11562.84, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 8
-Restult = 11176.79, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 9
-Restult = 12178.7, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 120, multiplier = 10
-Restult = 13328.97, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 1
-Restult = 13213.31, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 2
-Restult = 12932.91, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 3
-Restult = 12272.7, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 4
-Restult = 10903.63, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 5
-Restult = 13126.4, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 6
-Restult = 12385.63, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 7
-Restult = 12189.8, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 8
-Restult = 12154.54, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 9
-Restult = 11987.61, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 160, multiplier = 10
-Restult = 13570.99, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 1
-Restult = 13958.55, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 2
-Restult = 13254.29, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 3
-Restult = 13051.95, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 4
-Restult = 12801.15, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 5
-Restult = 12125.77, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 6
-Restult = 12973.31, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 7
-Restult = 13195.43, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 8
-Restult = 12985.6, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 9
-Restult = 13026.2, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 200, multiplier = 10
-Restult = 15285.35, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 1
-Restult = 13847.46, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 2
-Restult = 15276.15, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 3
-Restult = 15112.39, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 4
-Restult = 13265.77, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 5
-Restult = 12975.43, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 6
-Restult = 13244.76, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 7
-Restult = 14405.12, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 8
-Restult = 13386.28, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 9
-Restult = 13232.74, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 240, multiplier = 10
-Restult = 18433.78, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 1
-Restult = 16675.1, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 2
-Restult = 17956.63, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 3
-Restult = 15311.48, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 4
-Restult = 16480.27, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 5
-Restult = 15493.14, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 6
-Restult = 16363.82, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 7
-Restult = 15249.08, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 8
-Restult = 15297.87, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 9
-Restult = 15625.58, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 280, multiplier = 10
-Restult = 17794.3, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 1
-Restult = 18511.81, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 2
-Restult = 18185.45, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 3
-Restult = 18393.28, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 4
-Restult = 17569.7, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 5
-Restult = 18286.57, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 6
-Restult = 18296.92, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 7
-Restult = 18661.4, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 8
-Restult = 17113.68, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 9
-Restult = 17911.01, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 320, multiplier = 10
-Restult = 18801.57, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 1
-Restult = 18927.82, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 2
-Restult = 17949.87, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 3
-Restult = 17834.67, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 4
-Restult = 18508.95, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 5
-Restult = 18808.14, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 6
-Restult = 18816.35, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 7
-Restult = 19017.58, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 8
-Restult = 18870.54, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 9
-Restult = 18673.03, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 360, multiplier = 10
-Restult = 18141.36, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 1
-Restult = 19234.96, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 2
-Restult = 18266.6, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 3
-Restult = 18217.53, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 4
-Restult = 18841.89, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 5
-Restult = 18271.48, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 6
-Restult = 18238.11, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 7
-Restult = 18271.48, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 8
-Restult = 18534.46, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 9
-Restult = 18942.17, lr0 = 0.1, tlr = 200, size0 = 0.5, tsize = 400, multiplier = 10
-Restult = 9009.06, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 1
-Restult = 8924.33, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 2
-Restult = 8409.97, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 3
-Restult = 9236.36, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 4
-Restult = 8187.71, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 5
-Restult = 8394.5, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 6
-Restult = 8495.57, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 7
-Restult = 8577.34, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 8
-Restult = 8711.17, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 9
-Restult = 8771.31, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 40, multiplier = 10
-Restult = 9009.24, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 1
-Restult = 8302.13, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 2
-Restult = 8435.02, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 3
-Restult = 8545.3, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 4
-Restult = 8541.39, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 5
-Restult = 8581.73, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 6
-Restult = 8380.16, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 7
-Restult = 8301.99, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 8
-Restult = 8101.2, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 9
-Restult = 8487.03, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 80, multiplier = 10
-Restult = 8755.74, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 1
-Restult = 8808.88, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 2
-Restult = 8935.02, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 3
-Restult = 8865.03, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 4
-Restult = 8902.95, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 5
-Restult = 8902.4, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 6
-Restult = 8623.7, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 7
-Restult = 8697.52, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 8
-Restult = 8733.91, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 9
-Restult = 8805.84, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 120, multiplier = 10
-Restult = 9230.69, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 1
-Restult = 9075.68, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 2
-Restult = 8803.47, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 3
-Restult = 8782.8, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 4
-Restult = 8491.84, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 5
-Restult = 9073.25, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 6
-Restult = 8624.96, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 7
-Restult = 8623.69, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 8
-Restult = 8741.25, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 9
-Restult = 8408.88, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 160, multiplier = 10
-Restult = 9082.72, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 1
-Restult = 8952.67, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 2
-Restult = 9350.8, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 3
-Restult = 9254.01, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 4
-Restult = 9220.94, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 5
-Restult = 9099.48, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 6
-Restult = 9092.1, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 7
-Restult = 8947.82, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 8
-Restult = 9642.05, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 9
-Restult = 9085.36, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 200, multiplier = 10
-Restult = 9888.32, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 1
-Restult = 9780.29, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 2
-Restult = 9217.15, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 3
-Restult = 9222.03, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 4
-Restult = 8973.43, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 5
-Restult = 9400.08, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 6
-Restult = 9768.71, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 7
-Restult = 9786.97, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 8
-Restult = 9724.86, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 9
-Restult = 9477.19, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 240, multiplier = 10
-Restult = 10051.62, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 1
-Restult = 10657.57, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 2
-Restult = 9676.61, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 3
-Restult = 10086.15, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 4
-Restult = 9825.6, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 5
-Restult = 10478.11, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 6
-Restult = 10430.45, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 7
-Restult = 10425.63, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 8
-Restult = 10581.03, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 9
-Restult = 9476.66, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 280, multiplier = 10
-Restult = 10535.64, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 1
-Restult = 10750.51, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 2
-Restult = 10326.95, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 3
-Restult = 11300.53, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 4
-Restult = 10674.09, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 5
-Restult = 10805.2, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 6
-Restult = 10753.46, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 7
-Restult = 11744.07, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 8
-Restult = 11115.38, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 9
-Restult = 10811.11, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 320, multiplier = 10
-Restult = 11752.25, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 1
-Restult = 11974.2, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 2
-Restult = 12643.25, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 3
-Restult = 11093.81, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 4
-Restult = 11852.08, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 5
-Restult = 11420.54, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 6
-Restult = 11801.45, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 7
-Restult = 11473.94, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 8
-Restult = 11292.23, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 9
-Restult = 11296.96, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 360, multiplier = 10
-Restult = 13459.07, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 1
-Restult = 15007.37, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 2
-Restult = 13888.97, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 3
-Restult = 15439.3, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 4
-Restult = 12823.51, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 5
-Restult = 13842.05, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 6
-Restult = 15512.92, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 7
-Restult = 13048.46, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 8
-Restult = 13415.43, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 9
-Restult = 13758.68, lr0 = 1.0, tlr = 400, size0 = 0.05, tsize = 400, multiplier = 10
-Restult = 8971.29, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 1
-Restult = 8556.7, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 2
-Restult = 8918.51, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 3
-Restult = 9172.94, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 4
-Restult = 8946.23, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 5
-Restult = 8614.72, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 6
-Restult = 8213.32, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 7
-Restult = 8182.32, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 8
-Restult = 8448.24, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 9
-Restult = 8608.55, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 40, multiplier = 10
-Restult = 9108.6, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 1
-Restult = 9056.8, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 2
-Restult = 8424.04, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 3
-Restult = 8368.73, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 4
-Restult = 9296.07, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 5
-Restult = 9092.8, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 6
-Restult = 8632.94, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 7
-Restult = 8807.57, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 8
-Restult = 8431.75, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 9
-Restult = 8695.15, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 80, multiplier = 10
-Restult = 9587.59, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 1
-Restult = 9057.91, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 2
-Restult = 8466.45, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 3
-Restult = 8765.54, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 4
-Restult = 9048.97, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 5
-Restult = 8690.33, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 6
-Restult = 8810.0, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 7
-Restult = 8525.53, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 8
-Restult = 8917.92, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 9
-Restult = 8601.72, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 120, multiplier = 10
-Restult = 9509.34, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 1
-Restult = 9259.02, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 2
-Restult = 9299.17, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 3
-Restult = 9255.3, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 4
-Restult = 9284.83, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 5
-Restult = 9309.29, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 6
-Restult = 9007.71, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 7
-Restult = 9374.07, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 8
-Restult = 8847.35, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 9
-Restult = 9810.36, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 160, multiplier = 10
-Restult = 9818.1, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 1
-Restult = 8863.82, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 2
-Restult = 8934.98, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 3
-Restult = 9068.09, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 4
-Restult = 8735.42, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 5
-Restult = 9037.51, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 6
-Restult = 9093.85, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 7
-Restult = 9120.81, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 8
-Restult = 9796.84, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 9
-Restult = 9722.78, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 200, multiplier = 10
-Restult = 10404.28, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 1
-Restult = 10280.52, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 2
-Restult = 9467.77, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 3
-Restult = 9787.18, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 4
-Restult = 9958.72, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 5
-Restult = 9487.49, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 6
-Restult = 9343.13, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 7
-Restult = 9637.27, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 8
-Restult = 9363.45, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 9
-Restult = 9862.84, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 240, multiplier = 10
-Restult = 10105.94, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 1
-Restult = 9972.47, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 2
-Restult = 10179.26, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 3
-Restult = 9922.76, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 4
-Restult = 10682.52, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 5
-Restult = 9905.3, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 6
-Restult = 10178.21, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 7
-Restult = 9820.77, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 8
-Restult = 9739.36, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 9
-Restult = 10234.14, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 280, multiplier = 10
-Restult = 10625.95, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 1
-Restult = 10521.7, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 2
-Restult = 10613.6, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 3
-Restult = 10188.09, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 4
-Restult = 10473.79, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 5
-Restult = 10598.0, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 6
-Restult = 10086.37, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 7
-Restult = 10473.54, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 8
-Restult = 10703.78, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 9
-Restult = 10559.12, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 320, multiplier = 10
-Restult = 11290.47, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 1
-Restult = 10693.68, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 2
-Restult = 11306.25, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 3
-Restult = 11369.12, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 4
-Restult = 10394.86, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 5
-Restult = 10829.7, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 6
-Restult = 11432.94, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 7
-Restult = 10959.49, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 8
-Restult = 11257.33, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 9
-Restult = 10850.49, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 360, multiplier = 10
-Restult = 12301.59, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 1
-Restult = 12018.85, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 2
-Restult = 12593.34, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 3
-Restult = 11142.92, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 4
-Restult = 12191.32, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 5
-Restult = 11939.31, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 6
-Restult = 11539.52, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 7
-Restult = 12016.37, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 8
-Restult = 13153.69, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 9
-Restult = 11606.43, lr0 = 0.5, tlr = 400, size0 = 0.1, tsize = 400, multiplier = 10
-Restult = 9037.14, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 1
-Restult = 8915.88, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 2
-Restult = 9152.25, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 3
-Restult = 9070.29, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 4
-Restult = 9270.3, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 5
-Restult = 8859.37, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 6
-Restult = 8937.2, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 7
-Restult = 8496.25, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 8
-Restult = 9095.95, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 9
-Restult = 9065.86, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 40, multiplier = 10
-Restult = 9503.85, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 1
-Restult = 9026.02, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 2
-Restult = 8713.56, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 3
-Restult = 8871.18, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 4
-Restult = 8867.33, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 5
-Restult = 8864.18, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 6
-Restult = 8903.47, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 7
-Restult = 8319.24, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 8
-Restult = 8944.93, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 9
-Restult = 9149.98, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 80, multiplier = 10
-Restult = 8987.09, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 1
-Restult = 9179.43, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 2
-Restult = 9149.25, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 3
-Restult = 8751.23, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 4
-Restult = 9150.86, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 5
-Restult = 9256.68, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 6
-Restult = 8765.9, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 7
-Restult = 9122.67, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 8
-Restult = 8744.08, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 9
-Restult = 8870.32, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 120, multiplier = 10
-Restult = 9295.79, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 1
-Restult = 9615.86, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 2
-Restult = 9552.89, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 3
-Restult = 9372.53, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 4
-Restult = 9782.29, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 5
-Restult = 9692.13, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 6
-Restult = 8975.43, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 7
-Restult = 9020.96, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 8
-Restult = 9360.52, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 9
-Restult = 8953.96, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 160, multiplier = 10
-Restult = 9289.1, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 1
-Restult = 9372.77, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 2
-Restult = 9987.75, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 3
-Restult = 9697.4, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 4
-Restult = 9567.19, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 5
-Restult = 9228.0, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 6
-Restult = 9506.91, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 7
-Restult = 9410.51, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 8
-Restult = 9236.48, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 9
-Restult = 9648.74, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 200, multiplier = 10
-Restult = 9976.75, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 1
-Restult = 10086.52, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 2
-Restult = 10079.51, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 3
-Restult = 9734.35, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 4
-Restult = 9485.29, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 5
-Restult = 9910.37, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 6
-Restult = 9845.72, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 7
-Restult = 10239.67, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 8
-Restult = 9312.49, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 9
-Restult = 9564.79, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 240, multiplier = 10
-Restult = 10835.07, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 1
-Restult = 9749.93, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 2
-Restult = 10561.45, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 3
-Restult = 9730.11, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 4
-Restult = 10344.24, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 5
-Restult = 8853.11, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 6
-Restult = 10315.31, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 7
-Restult = 10006.11, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 8
-Restult = 10114.08, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 9
-Restult = 10234.14, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 280, multiplier = 10
-Restult = 10619.49, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 1
-Restult = 10428.29, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 2
-Restult = 10831.01, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 3
-Restult = 10327.73, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 4
-Restult = 10350.2, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 5
-Restult = 10597.22, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 6
-Restult = 10614.32, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 7
-Restult = 11016.04, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 8
-Restult = 10488.51, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 9
-Restult = 10466.89, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 320, multiplier = 10
-Restult = 10964.71, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 1
-Restult = 10436.13, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 2
-Restult = 9951.02, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 3
-Restult = 10151.37, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 4
-Restult = 10752.09, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 5
-Restult = 10649.03, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 6
-Restult = 10674.31, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 7
-Restult = 11596.69, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 8
-Restult = 11376.13, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 9
-Restult = 10567.62, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 360, multiplier = 10
-Restult = 11954.1, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 1
-Restult = 10565.07, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 2
-Restult = 11145.12, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 3
-Restult = 11460.56, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 4
-Restult = 12549.37, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 5
-Restult = 12249.49, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 6
-Restult = 11248.58, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 7
-Restult = 12587.21, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 8
-Restult = 11211.46, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 9
-Restult = 11391.35, lr0 = 0.3333333333333333, tlr = 400, size0 = 0.15000000000000002, tsize = 400, multiplier = 10
-Restult = 9407.76, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 1
-Restult = 9123.07, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 2
-Restult = 9324.77, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 3
-Restult = 8553.82, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 4
-Restult = 9502.58, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 5
-Restult = 9138.84, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 6
-Restult = 8699.54, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 7
-Restult = 8784.14, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 8
-Restult = 8851.17, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 9
-Restult = 8813.54, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 40, multiplier = 10
-Restult = 8815.38, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 1
-Restult = 8697.92, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 2
-Restult = 9272.72, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 3
-Restult = 8994.44, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 4
-Restult = 8958.79, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 5
-Restult = 8798.8, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 6
-Restult = 9160.07, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 7
-Restult = 8709.12, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 8
-Restult = 8677.17, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 9
-Restult = 9081.74, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 80, multiplier = 10
-Restult = 9284.09, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 1
-Restult = 9216.79, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 2
-Restult = 8955.33, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 3
-Restult = 9659.73, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 4
-Restult = 8608.24, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 5
-Restult = 9217.04, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 6
-Restult = 9127.11, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 7
-Restult = 9563.27, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 8
-Restult = 9296.88, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 9
-Restult = 9137.71, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 120, multiplier = 10
-Restult = 9577.93, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 1
-Restult = 9194.47, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 2
-Restult = 9063.94, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 3
-Restult = 9318.32, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 4
-Restult = 9403.92, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 5
-Restult = 8916.18, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 6
-Restult = 9151.51, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 7
-Restult = 9566.26, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 8
-Restult = 9279.68, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 9
-Restult = 9262.07, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 160, multiplier = 10
-Restult = 10325.92, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 1
-Restult = 9683.4, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 2
-Restult = 9442.07, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 3
-Restult = 9236.48, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 4
-Restult = 9577.33, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 5
-Restult = 9922.19, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 6
-Restult = 9919.64, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 7
-Restult = 9403.42, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 8
-Restult = 9758.49, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 9
-Restult = 9675.98, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 200, multiplier = 10
-Restult = 11118.45, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 1
-Restult = 10194.73, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 2
-Restult = 10350.63, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 3
-Restult = 10202.51, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 4
-Restult = 10114.67, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 5
-Restult = 10381.79, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 6
-Restult = 10132.28, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 7
-Restult = 9819.24, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 8
-Restult = 9637.06, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 9
-Restult = 10200.65, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 240, multiplier = 10
-Restult = 10106.67, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 1
-Restult = 9798.92, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 2
-Restult = 9833.91, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 3
-Restult = 10930.45, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 4
-Restult = 9922.76, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 5
-Restult = 10143.02, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 6
-Restult = 10309.99, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 7
-Restult = 9945.01, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 8
-Restult = 9493.08, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 9
-Restult = 9817.89, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 280, multiplier = 10
-Restult = 10546.8, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 1
-Restult = 9848.08, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 2
-Restult = 11417.1, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 3
-Restult = 11154.03, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 4
-Restult = 10189.42, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 5
-Restult = 10756.49, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 6
-Restult = 10649.38, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 7
-Restult = 10601.72, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 8
-Restult = 10115.71, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 9
-Restult = 10593.9, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 320, multiplier = 10
-Restult = 11491.76, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 1
-Restult = 10415.58, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 2
-Restult = 10684.49, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 3
-Restult = 10702.81, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 4
-Restult = 10943.0, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 5
-Restult = 10369.5, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 6
-Restult = 10663.44, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 7
-Restult = 11735.29, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 8
-Restult = 10647.02, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 9
-Restult = 10349.88, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 360, multiplier = 10
-Restult = 12061.23, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 1
-Restult = 11101.05, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 2
-Restult = 11616.73, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 3
-Restult = 11825.46, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 4
-Restult = 11764.91, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 5
-Restult = 11812.03, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 6
-Restult = 11281.08, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 7
-Restult = 10825.86, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 8
-Restult = 11510.75, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 9
-Restult = 11773.46, lr0 = 0.25, tlr = 400, size0 = 0.2, tsize = 400, multiplier = 10
-Restult = 9630.86, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 1
-Restult = 9144.48, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 2
-Restult = 9389.39, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 3
-Restult = 9393.99, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 4
-Restult = 8763.64, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 5
-Restult = 8975.02, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 6
-Restult = 9147.45, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 7
-Restult = 9157.67, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 8
-Restult = 8854.93, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 9
-Restult = 8993.96, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 40, multiplier = 10
-Restult = 9109.68, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 1
-Restult = 8660.91, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 2
-Restult = 8577.44, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 3
-Restult = 9460.16, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 4
-Restult = 9058.66, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 5
-Restult = 9341.54, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 6
-Restult = 8834.72, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 7
-Restult = 9214.06, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 8
-Restult = 8792.09, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 9
-Restult = 9496.09, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 80, multiplier = 10
-Restult = 9658.32, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 1
-Restult = 9543.94, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 2
-Restult = 9482.67, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 3
-Restult = 9637.06, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 4
-Restult = 9195.75, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 5
-Restult = 9080.02, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 6
-Restult = 9357.73, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 7
-Restult = 8649.43, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 8
-Restult = 9417.19, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 9
-Restult = 9026.25, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 120, multiplier = 10
-Restult = 9750.92, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 1
-Restult = 9138.15, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 2
-Restult = 9202.23, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 3
-Restult = 9506.37, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 4
-Restult = 9525.46, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 5
-Restult = 9572.36, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 6
-Restult = 9397.25, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 7
-Restult = 10174.05, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 8
-Restult = 9447.32, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 9
-Restult = 9328.42, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 160, multiplier = 10
-Restult = 9507.35, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 1
-Restult = 9475.98, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 2
-Restult = 9750.31, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 3
-Restult = 9652.07, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 4
-Restult = 10014.1, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 5
-Restult = 9931.47, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 6
-Restult = 10441.21, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 7
-Restult = 9777.63, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 8
-Restult = 10158.28, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 9
-Restult = 9556.44, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 200, multiplier = 10
-Restult = 10039.46, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 1
-Restult = 9957.21, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 2
-Restult = 11117.97, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 3
-Restult = 11071.41, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 4
-Restult = 10532.17, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 5
-Restult = 10190.36, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 6
-Restult = 10029.2, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 7
-Restult = 10317.56, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 8
-Restult = 9727.22, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 9
-Restult = 9875.61, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 240, multiplier = 10
-Restult = 10399.12, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 1
-Restult = 11531.32, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 2
-Restult = 10895.04, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 3
-Restult = 10836.56, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 4
-Restult = 10698.89, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 5
-Restult = 10477.78, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 6
-Restult = 10645.33, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 7
-Restult = 10264.0, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 8
-Restult = 10596.23, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 9
-Restult = 10112.67, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 280, multiplier = 10
-Restult = 11327.15, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 320, multiplier = 1
-Restult = 11496.98, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 320, multiplier = 2
-Restult = 10838.11, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 320, multiplier = 3
-Restult = 10519.16, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 320, multiplier = 4
-Restult = 10508.56, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 320, multiplier = 5
-Restult = 10295.7, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 320, multiplier = 6
-Restult = 10508.69, lr0 = 0.2, tlr = 400, size0 = 0.25, tsize = 320, multiplier = 7
+File: 1	|	AVG/B/W = 8461.94/8121.45/8840.43	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8343.0/8108.94/8464.62	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8210.19/7849.3/8568.95	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8224.29/8053.9/8391.25	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8177.32/7932.25/8402.99	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8494.6/8090.68/8855.13	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8275.14/8059.68/8571.88	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8312.75/8053.94/8915.23	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8242.56/7871.07/8368.71	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8393.7/8296.65/8570.9	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8433.37/8171.55/8883.78	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8147.81/7841.84/8495.05	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8227.07/8000.65/8540.59	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8576.56/8298.93/8964.03	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8156.1/7900.21/8337.9	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8271.52/7758.02/9029.17	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8084.17/7726.3/8264.48	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8117.88/7906.17/8414.3	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8160.85/7765.39/8376.42	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8257.59/7982.0/8440.62	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8507.13/8166.85/8752.08	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8086.23/7716.69/8415.29	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8249.13/8047.36/8378.39	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8056.69/7544.66/8290.07	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8145.23/7870.52/8647.8	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8292.27/8079.82/8470.49	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8138.06/7976.15/8319.14	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8239.1/7887.57/8405.3	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 7933.89/7555.4/8459.93	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8204.46/7867.57/8517.69	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8288.49/7890.94/8795.39	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8391.44/8160.33/8661.45	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8180.8/7873.05/8366.03	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8199.77/7837.68/8451.34	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8370.53/8315.54/8507.74	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8207.68/8039.22/8361.73	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8090.61/7675.77/8458.55	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8085.05/7845.8/8339.77	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8253.53/7849.78/8438.51	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8095.6/7544.66/8680.89	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8194.6/8076.78/8568.81	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8015.89/7544.66/8275.63	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 7979.36/7740.75/8314.82	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8321.56/8099.65/8504.81	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8324.67/7770.77/8633.44	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8180.17/8015.64/8377.61	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8053.95/7791.73/8385.3	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8251.83/7881.84/8492.68	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8332.26/8204.95/8508.58	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8151.38/7735.8/8380.98	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8207.45/8057.87/8452.86	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8041.37/7697.28/8480.7	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8159.7/7870.45/8445.89	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8601.46/8450.45/8709.5	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8323.81/8027.63/8668.7	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8252.88/8093.3/8734.74	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 7928.94/7544.37/8761.88	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8342.0/8124.02/8497.33	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8212.12/8037.24/8486.53	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8261.57/7886.59/8414.53	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8118.87/7859.99/8283.72	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8287.8/7887.23/8531.29	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8173.6/7845.8/8470.87	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8252.99/7845.8/8420.17	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8323.49/8012.75/8612.49	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8336.7/8125.76/8480.91	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 7973.88/7817.78/8288.94	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8071.84/7896.65/8298.24	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8334.23/8272.67/8481.59	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8225.8/8012.71/8400.72	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8086.6/7838.18/8370.02	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8246.14/7839.35/8464.63	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8253.44/7989.04/8463.12	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8146.51/7895.72/8315.54	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8070.31/7845.8/8299.64	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8265.38/7921.8/8681.39	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8093.37/7825.93/8419.97	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8132.05/7762.83/8493.81	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8253.32/8030.04/8550.61	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8329.26/8166.55/8508.79	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8064.27/7835.41/8274.23	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8151.57/7845.8/8400.72	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8058.4/7845.8/8323.04	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8292.72/8064.19/8497.5	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8257.0/8082.07/8547.73	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 7992.36/7811.03/8152.58	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 8254.93/8111.58/8330.73	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 8106.18/7845.8/8497.33	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 8239.21/8123.81/8368.05	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 8259.74/7893.48/8581.49	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 8119.89/7697.53/8340.99	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 800, multiplier = 8
+File: 1	|	AVG/B/W = 7870.3/7544.37/8178.5	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 800, multiplier = 8
+File: 1	|	AVG/B/W = 8082.84/7837.39/8346.55	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 800, multiplier = 8
+File: 1	|	AVG/B/W = 8253.76/7758.76/8435.04	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 800, multiplier = 8
+File: 1	|	AVG/B/W = 8497.69/8265.22/8707.66	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 800, multiplier = 8
+File: 1	|	AVG/B/W = 8252.8/8133.59/8484.37	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 800, multiplier = 10
+File: 1	|	AVG/B/W = 8208.55/7900.66/8540.18	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 800, multiplier = 10
+File: 1	|	AVG/B/W = 8192.88/7821.95/8483.43	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 800, multiplier = 10
+File: 1	|	AVG/B/W = 8216.59/7735.8/8712.28	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 800, multiplier = 10
+File: 1	|	AVG/B/W = 8480.14/8315.11/8686.11	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 800, multiplier = 10
+File: 1	|	AVG/B/W = 8215.59/7791.24/8518.91	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 1000, multiplier = 2
+File: 1	|	AVG/B/W = 8126.83/7910.85/8446.65	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 1000, multiplier = 2
+File: 1	|	AVG/B/W = 8549.97/8416.02/8680.79	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 1000, multiplier = 2
+File: 1	|	AVG/B/W = 8340.61/7920.21/8612.38	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 1000, multiplier = 2
+File: 1	|	AVG/B/W = 8663.52/8150.92/9062.03	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 1000, multiplier = 2
+File: 1	|	AVG/B/W = 7963.56/7544.66/8295.39	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 1000, multiplier = 4
+File: 1	|	AVG/B/W = 7886.75/7566.17/8307.57	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 1000, multiplier = 4
+File: 1	|	AVG/B/W = 8247.04/7904.77/8424.22	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 1000, multiplier = 4
+File: 1	|	AVG/B/W = 8208.0/7872.76/8457.98	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 1000, multiplier = 4
+File: 1	|	AVG/B/W = 8280.61/8161.98/8486.09	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 1000, multiplier = 4
+File: 1	|	AVG/B/W = 8118.13/7845.8/8506.32	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 1000, multiplier = 6
+File: 1	|	AVG/B/W = 8223.49/7549.89/8620.09	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 1000, multiplier = 6
+File: 1	|	AVG/B/W = 8183.46/7877.11/8378.87	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 1000, multiplier = 6
+File: 1	|	AVG/B/W = 8272.52/7945.82/8485.97	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 1000, multiplier = 6
+File: 1	|	AVG/B/W = 8445.73/8189.13/8603.5	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 1000, multiplier = 6
+File: 1	|	AVG/B/W = 8318.48/8002.66/8505.54	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 1000, multiplier = 8
+File: 1	|	AVG/B/W = 8201.88/7685.01/8405.12	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 1000, multiplier = 8
+File: 1	|	AVG/B/W = 8043.88/7858.87/8416.99	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 1000, multiplier = 8
+File: 1	|	AVG/B/W = 8422.12/8169.96/8751.55	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 1000, multiplier = 8
+File: 1	|	AVG/B/W = 8496.61/8123.81/8920.86	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 1000, multiplier = 8
+File: 1	|	AVG/B/W = 8116.89/7937.87/8279.42	|	lr0 = 0.9, tlr = 500, size0 = 5.0, tsize = 1000, multiplier = 10
+File: 1	|	AVG/B/W = 8007.27/7826.94/8295.63	|	lr0 = 0.9, tlr = 500, size0 = 7.500000000000001, tsize = 1000, multiplier = 10
+File: 1	|	AVG/B/W = 8385.41/8198.6/8511.26	|	lr0 = 0.9, tlr = 500, size0 = 10.0, tsize = 1000, multiplier = 10
+File: 1	|	AVG/B/W = 8345.71/7982.45/8690.87	|	lr0 = 0.9, tlr = 500, size0 = 12.5, tsize = 1000, multiplier = 10
+File: 1	|	AVG/B/W = 8415.7/8169.47/8778.66	|	lr0 = 0.9, tlr = 500, size0 = 15.000000000000002, tsize = 1000, multiplier = 10
+File: 1	|	AVG/B/W = 8640.6/8299.23/8978.07	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8318.17/7849.74/8635.34	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8124.15/7823.88/8294.09	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8290.54/7868.24/8591.15	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8042.65/7912.22/8283.46	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 200, multiplier = 2
+File: 1	|	AVG/B/W = 8228.47/7755.53/8486.28	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8304.39/8013.04/8638.07	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8169.04/7878.6/8752.12	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8283.83/8070.14/8556.66	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8189.48/7902.58/8496.64	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 200, multiplier = 4
+File: 1	|	AVG/B/W = 8313.94/8026.91/8628.82	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8257.09/7970.36/8480.06	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8270.22/7813.91/8562.83	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8225.61/7872.28/8438.73	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 7927.59/7760.23/8440.1	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 200, multiplier = 6
+File: 1	|	AVG/B/W = 8205.45/8055.44/8408.45	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8477.41/8306.95/8678.46	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 7989.12/7725.29/8102.63	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8100.02/7818.08/8381.95	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 7958.02/7740.46/8121.58	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 200, multiplier = 8
+File: 1	|	AVG/B/W = 8361.03/7751.48/8833.65	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8357.94/8062.22/8750.8	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8009.88/7746.35/8415.06	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8250.09/7945.17/8610.42	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8018.45/7785.21/8304.51	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 200, multiplier = 10
+File: 1	|	AVG/B/W = 8233.78/7953.19/8335.87	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8225.27/7827.81/8575.3	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8433.1/8257.61/8604.35	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8181.21/8045.03/8324.6	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8201.16/7868.12/8351.53	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 400, multiplier = 2
+File: 1	|	AVG/B/W = 8064.13/7725.94/8281.28	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8156.17/7736.35/8499.16	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8212.01/7544.66/8594.76	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8254.0/7791.35/8506.51	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8110.22/7835.69/8265.94	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 400, multiplier = 4
+File: 1	|	AVG/B/W = 8232.19/8061.41/8532.26	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8194.65/8054.29/8337.75	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8132.55/7801.17/8490.48	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8111.23/7598.44/8619.91	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8117.15/7802.81/8468.83	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 400, multiplier = 6
+File: 1	|	AVG/B/W = 8216.81/8049.38/8492.98	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8317.29/8074.07/8497.66	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8121.74/7619.15/8438.54	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8262.61/7840.06/8486.23	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8219.89/8049.06/8421.36	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 400, multiplier = 8
+File: 1	|	AVG/B/W = 8219.2/8021.81/8386.61	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8006.84/7753.77/8219.32	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8148.59/7746.86/8708.43	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8318.84/7873.73/8522.88	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8101.82/7736.35/8429.04	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 400, multiplier = 10
+File: 1	|	AVG/B/W = 8289.97/8083.24/8534.15	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8215.56/8012.45/8360.22	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8308.9/8193.74/8415.26	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8270.35/8039.38/8452.51	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8291.12/7883.07/8533.55	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 600, multiplier = 2
+File: 1	|	AVG/B/W = 8215.05/8048.73/8342.24	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8272.63/7835.19/8812.3	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8116.45/7892.41/8466.49	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8134.44/7845.8/8315.07	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8163.22/7881.43/8274.49	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 600, multiplier = 4
+File: 1	|	AVG/B/W = 8256.12/7848.09/8836.03	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 7928.31/7544.37/8411.34	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8199.87/7742.32/8544.37	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8198.84/7716.69/8357.35	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 8245.92/8037.24/8391.93	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 600, multiplier = 6
+File: 1	|	AVG/B/W = 7978.03/7790.38/8206.03	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8190.68/7981.3/8366.2	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8117.02/7811.01/8308.34	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8343.96/8242.56/8625.74	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8074.16/7791.24/8290.46	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 600, multiplier = 8
+File: 1	|	AVG/B/W = 8239.55/7974.62/8542.8	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8238.64/7886.59/8516.6	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 7968.78/7758.32/8271.56	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8197.7/7845.8/8361.59	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8090.16/7778.09/8461.06	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 600, multiplier = 10
+File: 1	|	AVG/B/W = 8114.52/7990.99/8454.56	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8105.46/7566.83/8527.59	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8250.2/7808.93/8641.67	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8302.93/8044.02/8512.13	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8212.92/7893.98/8383.54	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 800, multiplier = 2
+File: 1	|	AVG/B/W = 8330.1/8188.07/8400.28	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8150.81/7826.28/8491.99	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 7987.27/7544.66/8250.93	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8139.21/7835.41/8412.75	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8296.7/7544.37/8711.37	|	lr0 = 0.9, tlr = 1000, size0 = 15.000000000000002, tsize = 800, multiplier = 4
+File: 1	|	AVG/B/W = 8009.48/7792.02/8184.82	|	lr0 = 0.9, tlr = 1000, size0 = 5.0, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 7977.46/7800.93/8277.55	|	lr0 = 0.9, tlr = 1000, size0 = 7.500000000000001, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 7984.04/7740.75/8288.24	|	lr0 = 0.9, tlr = 1000, size0 = 10.0, tsize = 800, multiplier = 6
+File: 1	|	AVG/B/W = 8002.31/7544.37/8548.94	|	lr0 = 0.9, tlr = 1000, size0 = 12.5, tsize = 800, multiplier = 6
