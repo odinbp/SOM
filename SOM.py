@@ -60,6 +60,7 @@ class SOM(object):
 
 		#Find winner of cometition
 		winningIndex, winner = self.find_winner(iv, neurons)
+		print(neurons)
 
 		for neuronIndex, neuron in enumerate(neurons):
 			d = self.circle_distance(len(neurons), neuronIndex, winningIndex)
@@ -124,7 +125,7 @@ class SOM(object):
 		maxX = max(d[0] for d in data)
 		maxY = max(d[1] for d in data)
 		scale = max(maxX, maxY)
-
+		print([(d[0]/scale, d[1]/scale) for d in data], "hello")
 		return scale,[(d[0]/scale, d[1]/scale) for d in data]
 
 	def plot_map(self, inputs, neurons, iteration):		
@@ -172,7 +173,7 @@ class SOM(object):
 
 		distance += self.discriminant(marching_order[-1], marching_order[0]) #Add distance to get back to start
 
-		return marching_order, distance
+
 
 
 
