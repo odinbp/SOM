@@ -4,6 +4,9 @@ import csv
 import matplotlib.pyplot as plt
 import mnist_basics as mb
 import numpy as np
+import statistics
+
+plt.rcParams['figure.figsize'] = (11,7)
 
 testVector = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -28,21 +31,14 @@ testClass = 5
 
 class SOMMnist(object):
 
-	def __init__(self, noOfNeuron, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None, multiplier = 2):
+	def __init__(self, noOfNeuron, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None):
 		#something
-		if lr0 == None:
-			self.lr0 = 0.2
-		else:
-			self.lr0 = float(lr0)
-		if size0 == None:
-			self.size0 = max(m,n)/2.0
-		else:
-			self.size0 = float(size0*multiplier)
+		self.lr0 = float(lr0)
+		self.size0 = float(size0)
 		self.lr = self.lr0
 		self.size = self.size0
 		self.tlr = tlr
 		self.tsize = tsize
-		self.multiplier = multiplier
 
 		self.n_iterations = n_iterations
 
@@ -62,7 +58,7 @@ class SOMMnist(object):
 	def discriminant(self, iv, weight):
 		d = 0
 		for i in range(len(iv)):
-			d +=  (iv[0][i]-weight[i])**2
+			d +=  (iv[i]-weight[i])**2
 		return math.sqrt(d)
 
 	def neighbourhood(self, distance, size):
@@ -81,33 +77,39 @@ class SOMMnist(object):
 		################
 			if i%k == 0:
 				average = []
-				for i in range(len(neurons[1])):
-					lengthOfList = len(neurons[1][i])
+
+				for z in range(len(neurons[1])):
+					lengthOfList = len(neurons[1][z])
 					if lengthOfList == 0:
 						average.append(None)
 					else:
-						total = 0
-						for i in neurons[1][i]:
-							total += i
+						#total = 0
+						total = []
+						for element in neurons[1][z]:
+							#total += element
+							total.append(element)
+						#average.append(round(total/lengthOfList))
+						average.append(statistics.median(total))
+				
 
-						average.append(round(total/lengthOfList))
 
 				index = 0
-				for i in range(10):
+				for j in range(noOfNeuron):
 					output = []
-					for j in range(10):
+					for _ in range(noOfNeuron):
 						output.append(average[index])
 						index += 1
 					print(output)
+
 		#######################################
-		
+
 
 	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
 
 		#Pick a random input vector
 		iv = inputs[random.randint(0,len(inputs)-1)]
 		#Find winner of cometition
-		winningIndex, winner = self.find_winner(iv, neurons[0])
+		winningIndex, winner = self.find_winner(iv[0], neurons[0])
 		neurons[1][winningIndex].append(iv[1])
 		iv = iv[0]
 		for neuronIndex, neuron in enumerate(neurons[0]):
@@ -179,12 +181,12 @@ class SOMMnist(object):
 		return scale,data
 
 	def main(self):
-		noOfImages, images = self.read_data(50000)
+		noOfImages, images = self.read_data(1000)
 		scaleFactor, scaled = self.normalize(images)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(images[0][0]), noOfNeuron)#noOfImages)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 1000)
 		
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 50)
 
 		average = []
 		for i in range(len(neurons[1])):
@@ -192,29 +194,43 @@ class SOMMnist(object):
 			if lengthOfList == 0:
 				average.append(0)
 			else:
-				total = 0
-				for i in neurons[1][i]:
-					total += i
+				#total = 0
+				total = []
+				for element in neurons[1][i]:
+					#total += element
+					total.append(element)
 
-				average.append(round(total/lengthOfList))
-
+				#average.append(round(total/lengthOfList))
+				average.append(statistics.median(total))
 		
+
 		#Tester på testVector
-		#a, b = self.find_winner([testVector, testClass], neurons[0])
+		#a, b = self.find_winner(testVector, neurons[0])
 		#print(average[a])
+
+		noTrainImages, trainImages = self.read_data(100)
+		correct = 0
+		for i in range(100):
+			a,b = self.find_winner(trainImages[i][0], neurons[0])
+			if average[a] == trainImages[i][1]:
+				correct += 1
+		print((correct/100)*100)
+		#print("prediction:", average[a], "target", trainImages[i][1])
+
 
 		return average
 
 #tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
-som = SOMMnist(n_iterations=2000,lr0 = 0.3, tlr = 1000, size0 = 70/10, tsize = 200, multiplier = 10, noOfNeuron = 10) 
+som = SOMMnist(n_iterations=3000,lr0 = 0.1, tlr = 2000, size0 = 40, tsize = 500, noOfNeuron = 10) 
 grid = som.main()
 
+noOfNeuron = 10
 
 data = []
 index = 0
-for i in range(10):
+for i in range(noOfNeuron):
 	output = []
-	for j in range(10):
+	for j in range(noOfNeuron):
 		output.append(grid[index])
 		index += 1
 	data.append(output)
@@ -228,5 +244,6 @@ for (i, j), z in np.ndenumerate(data):
     ax.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
 
 plt.show()
+
 
 
