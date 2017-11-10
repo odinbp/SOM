@@ -185,7 +185,7 @@ class SOMMnist(object):
 		scaleFactor, scaled = self.normalize(images)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(images[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 1000)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 5000)
 		
 
 		average = []
@@ -221,7 +221,7 @@ class SOMMnist(object):
 		return average
 
 #tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
-som = SOMMnist(n_iterations=3000,lr0 = 0.1, tlr = 2000, size0 = 40, tsize = 500, noOfNeuron = 10) 
+som = SOMMnist(n_iterations=5000,lr0 = 0.1, tlr = 2000, size0 = 10, tsize = 500, noOfNeuron = 10) 
 grid = som.main()
 
 noOfNeuron = 10
