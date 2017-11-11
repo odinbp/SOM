@@ -31,12 +31,11 @@ class SOMMnist(object):
 			predicts.append([])
 		return [weights, predicts]
 
-
 	def discriminant(self, iv, weight):
-		d = 0
-		for i in range(len(iv)):
-			d +=  (iv[i]-weight[i])**2
-		return math.sqrt(d)
+		iv = np.array(iv)
+		weight = np.array(weight)
+		dist = np.linalg.norm(iv - weight)
+		return dist
 
 	def neighbourhood(self, distance, size):
 		p = 2*size**2
@@ -44,12 +43,12 @@ class SOMMnist(object):
 			return 0
 		return math.exp((-distance**2)/p)
 		
-
 	def som(self, neurons, inputs, iterations, k, noOfNeuron):
 		
 		#You need only compute total distance (D) and show diagrams at every k steps
 		#print(neurons, "som") #feil
 		for i in range(iterations+1):
+			print(i, "i")
 			self.som_one_step(neurons, inputs, i, noOfNeuron)
 			if i%k == 0 and i != 0:
 				self.plotGrid(noOfNeuron, neurons)
@@ -63,7 +62,6 @@ class SOMMnist(object):
 						index += 1
 					print(output)
 				'''
-
 
 	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
 
@@ -83,7 +81,7 @@ class SOMMnist(object):
 		self.learning_decay(iter)
 
 	def find_winner(self, iv, neurons):
-		mi,mn = -100,[255]*786
+		mi,mn = -100,[255]*784
 		for index,neuron in enumerate(neurons):
 			if self.discriminant(iv,neuron) < self.discriminant(iv,mn):
 				mi = index
@@ -182,7 +180,7 @@ class SOMMnist(object):
 		scaleFactor, scaled = self.normalize(images)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(images[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 10)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 100)
 		
 
 		average = []
@@ -216,7 +214,7 @@ class SOMMnist(object):
 		return average
 
 #tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
-som = SOMMnist(n_iterations=500,lr0 = 0.1, tlr = 2000, size0 = 10, tsize = 500, noOfNeuron = 10) 
+som = SOMMnist(n_iterations=3000,lr0 = 0.1, tlr = 2000, size0 = 10, tsize = 500, noOfNeuron = 10) 
 grid = som.main()
 
 '''
