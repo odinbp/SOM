@@ -51,25 +51,10 @@ class SOMMnist(object):
 		#print(neurons, "som") #feil
 		for i in range(iterations+1):
 			self.som_one_step(neurons, inputs, i, noOfNeuron)
-		################
-			if i%k == 0:
-				average = []
-
-				for z in range(len(neurons[1])):
-					lengthOfList = len(neurons[1][z])
-					if lengthOfList == 0:
-						average.append(None)
-					else:
-						#total = 0
-						total = []
-						for element in neurons[1][z]:
-							#total += element
-							total.append(element)
-						#average.append(round(total/lengthOfList))
-						average.append(statistics.median(total))
-				
-
-
+			if i%k == 0 and i != 0:
+				self.plotGrid(noOfNeuron, neurons)
+			
+				'''
 				index = 0
 				for j in range(noOfNeuron):
 					output = []
@@ -77,7 +62,7 @@ class SOMMnist(object):
 						output.append(average[index])
 						index += 1
 					print(output)
-		#######################################
+				'''
 
 
 	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
@@ -128,13 +113,11 @@ class SOMMnist(object):
 		winningX, winningY = self.findIndex(winningIndex, self.liste)
 
 		#return (abs( neuronX - winningX ) + abs( neuronY - winningY ))
-		return (math.sqrt(( neuronX - winningX )**2 + abs( neuronY - winningY )**2))
-		
+		return (math.sqrt(( neuronX - winningX )**2 + abs( neuronY - winningY )**2))		
 
 	def size_decay(self, t):
 		self.sizeChanges.append(self.size0*math.exp(-t/self.tsize)-self.size)
 		self.size = self.size0*math.exp(-t/self.tsize)
-		
 
 	def learning_decay(self, t):
 		self.lrateChanges.append(self.lr0*math.exp(-t/self.tlr)-self.lr)
@@ -156,12 +139,50 @@ class SOMMnist(object):
 				data[d][0][e] = data[d][0][e]/scale 
 		return scale,data
 
+	def plotGrid(self, noOfNeuron, neurons):
+		average = []
+		
+		for z in range(len(neurons[1])):
+			lengthOfList = len(neurons[1][z])
+			if lengthOfList == 0:
+				average.append(0)
+			else:
+				#total = 0
+				total = []
+				for element in neurons[1][z]:
+					#total += element
+					total.append(element)
+				#average.append(round(total/lengthOfList))
+				average.append(round(statistics.median(total)))		
+		
+		data = []
+		index = 0
+		grid = average
+		
+		for i in range(noOfNeuron):
+			output = []
+			for j in range(noOfNeuron):
+				output.append(grid[index])
+				index += 1
+			data.append(output)
+		
+		fig, ax = plt.subplots()
+		ax.matshow(data, cmap='seismic')
+
+		for (i, j), z in np.ndenumerate(data):
+			ax.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+		plt.ion()		
+		plt.show()
+		plt.draw()
+		plt.pause(0.1)
+		plt.close()
+
 	def main(self):
 		noOfImages, images = self.read_data(1000)
 		scaleFactor, scaled = self.normalize(images)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(images[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 5000)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 10)
 		
 
 		average = []
@@ -195,10 +216,10 @@ class SOMMnist(object):
 		return average
 
 #tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
-som = SOMMnist(n_iterations=5000,lr0 = 0.1, tlr = 2000, size0 = 10, tsize = 500, noOfNeuron = 10) 
+som = SOMMnist(n_iterations=500,lr0 = 0.1, tlr = 2000, size0 = 10, tsize = 500, noOfNeuron = 10) 
 grid = som.main()
 
-
+'''
 noOfNeuron = 10
 data = []
 index = 0
@@ -218,6 +239,6 @@ for (i, j), z in np.ndenumerate(data):
     ax.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
 
 plt.show()
-
+'''
 
 
