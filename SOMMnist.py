@@ -71,11 +71,15 @@ class SOMMnist(object):
 		winningIndex, winner = self.find_winner(iv[0], neurons[0])
 		neurons[1][winningIndex].append(iv[1])
 		iv = iv[0]
+		tn = 0
 		for neuronIndex, neuron in enumerate(neurons[0]):
 			d = self.grid_distance(neuronIndex, winningIndex, noOfNeuron)
 			tn = self.neighbourhood(d, self.size)
-			for i in range(len(neuron)):
-				neuron[i] += self.lr*tn*(iv[i]-neuron[i])
+		
+		iv = np.array(iv)
+		neur = np.array(neurons[0])
+		neur += np.subtract(self.lr*tn*iv, self.lr*tn*neur)
+		neurons[0] = neur.tolist()
 
 		self.size_decay(iter)
 		self.learning_decay(iter)
@@ -88,20 +92,17 @@ class SOMMnist(object):
 				mn = neuron
 		return mi,mn
 
-	def findIndex(self, index,list):
-		for i in range(len(list)):
-			if [index] in list[i]:
-				xIndex = list[i].index([index])
-				yIndex = i
-				break
-		return (xIndex, yIndex)
+	def findIndex(self, index, liste):
+		liste = np.array(liste)
+		y, x = np.where(liste == index)
+		return y[0], x[0]
 
 	def makeList(self, noOfNeuron):
 		liste = []
 		for i in range(0,noOfNeuron*noOfNeuron,noOfNeuron):
 			temp = []
 			for j in range(noOfNeuron):
-				temp.append([i+j])
+				temp.append(i+j)
 			liste.append(temp)
 		return liste
 
