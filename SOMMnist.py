@@ -50,10 +50,10 @@ class SOMMnist(object):
 		for i in range(iterations+1):
 			print(i, "i")
 			self.som_one_step(neurons, inputs, i, noOfNeuron)
-			if i%k == 0 and i != 0:
-				self.plotGrid(noOfNeuron, neurons)
+			#if i%k == 0 and i != 0:
+				#self.plotGrid(noOfNeuron, neurons)
 			
-				'''
+	'''
 				index = 0
 				for j in range(noOfNeuron):
 					output = []
@@ -61,7 +61,7 @@ class SOMMnist(object):
 						output.append(average[index])
 						index += 1
 					print(output)
-				'''
+				'''				
 
 	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
 
@@ -75,12 +75,27 @@ class SOMMnist(object):
 		for neuronIndex, neuron in enumerate(neurons[0]):
 			d = self.grid_distance(neuronIndex, winningIndex, noOfNeuron)
 			tn = self.neighbourhood(d, self.size)
-		
+			#neuron = np.array(neuron)
+			#ivv = np.array(iv)
+			#neuron += np.subtract(self.lr*tn*ivv, self.lr*tn*neuron)
+			#neuron.tolist()
+			for i in range(len(neuron)):
+				neuron[i] += self.lr*tn*(iv[i]-neuron[i])
+
+
+
+		#Nødt til å teste om neurons[0] nå er lik som den var på forrige funksjon. Dårlig resultat?
+		'''
 		iv = np.array(iv)
 		neur = np.array(neurons[0])
 		neur += np.subtract(self.lr*tn*iv, self.lr*tn*neur)
-		neurons[0] = neur.tolist()
-
+		#neurons[0] = neur.tolist()
+		a = neur.tolist()
+		if a == neurons[0]:
+			print("True")
+		else:
+			print("False")
+		'''
 		self.size_decay(iter)
 		self.learning_decay(iter)
 
@@ -146,13 +161,13 @@ class SOMMnist(object):
 			if lengthOfList == 0:
 				average.append(0)
 			else:
-				#total = 0
 				total = []
 				for element in neurons[1][z]:
-					#total += element
 					total.append(element)
-				#average.append(round(total/lengthOfList))
-				average.append(round(statistics.median(total)))		
+				try:
+					average.append(round(statistics.mode(total)))
+				except:
+					average.append(round(statistics.median(total)))
 		
 		data = []
 		index = 0
@@ -176,68 +191,49 @@ class SOMMnist(object):
 		plt.pause(0.1)
 		plt.close()
 
-	def main(self):
-		noOfImages, images = self.read_data(1000)
-		scaleFactor, scaled = self.normalize(images)
-		noOfNeuron = self.noOfNeuron
-		neurons = self.init_neurons(len(images[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 100)
-		
-
+	def accuracy(self, neurons, data):
 		average = []
 		for i in range(len(neurons[1])):
 			lengthOfList = len(neurons[1][i])
 			if lengthOfList == 0:
 				average.append(0)
 			else:
-				#total = 0
 				total = []
 				for element in neurons[1][i]:
-					#total += element
 					total.append(element)
+				try:
+					average.append(round(statistics.mode(total)))
+				except:
+					average.append(round(statistics.median(total)))
 
-				#average.append(round(total/lengthOfList))
-				average.append(statistics.median(total))
-		
-
-		#Tester på testVector
-		#a, b = self.find_winner(testVector, neurons[0])
-		#print(average[a])
-
-		noTrainImages, trainImages = self.read_data(100)
 		correct = 0
-		for i in range(100):
-			a,b = self.find_winner(trainImages[i][0], neurons[0])
-			if average[a] == trainImages[i][1]:
+		for i in range(len(data)):
+			a,b = self.find_winner(data[i][0], neurons[0])
+			if average[a] == data[i][1]:
 				correct += 1
-		print((correct/100)*100)
-		
-		return average
+		return (correct/len(data))*100
+
+
+	def main(self):
+		num, data = self.read_data(600)
+		trainData = data[:500]
+		testData = data [500:]
+		scaleFactorTrain, scaledTrain = self.normalize(trainData)
+		scaleFactorTest, scaledTest = self.normalize(testData)
+		noOfNeuron = self.noOfNeuron
+		neurons = self.init_neurons(len(trainData[0][0]), noOfNeuron)#noOfImages)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 500)
+		train = self.accuracy(neurons, trainData)
+		test = self.accuracy(neurons, testData)
+		print(train, "% train", test, "% test")
+		return train, test
 
 #tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
-som = SOMMnist(n_iterations=3000,lr0 = 0.1, tlr = 2000, size0 = 10, tsize = 500, noOfNeuron = 10) 
-grid = som.main()
+som = SOMMnist(n_iterations=3000,lr0 = 0.1, tlr = 1000, size0 = 3, tsize = 600, noOfNeuron = 15) 
+som.main()
 
-'''
-noOfNeuron = 10
-data = []
-index = 0
-for i in range(noOfNeuron):
-	output = []
-	for j in range(noOfNeuron):
-		output.append(grid[index])
-		index += 1
-	data.append(output)
-
-
-
-fig, ax = plt.subplots()
-ax.matshow(data, cmap='seismic')
-
-for (i, j), z in np.ndenumerate(data):
-    ax.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
-
-plt.show()
-'''
-
-
+#som = SOMMnist(n_iterations=6000,lr0 = 0.2, tlr = 1000, size0 = 3, tsize = 600, noOfNeuron = 10) 
+#87.2, 79
+#83.8, 70
+#86.2, 69
+#85.8, 71
