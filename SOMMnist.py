@@ -35,6 +35,7 @@ class SOMMnist(object):
 		iv = np.array(iv)
 		weight = np.array(weight)
 		dist = np.linalg.norm(iv - weight)
+		
 		return dist
 
 	def neighbourhood(self, distance, size):
@@ -48,41 +49,51 @@ class SOMMnist(object):
 		#You need only compute total distance (D) and show diagrams at every k steps
 		#print(neurons, "som") #feil
 		for i in range(iterations+1):
-			print(i, "i")
+			print(i, "i1")
 			self.som_one_step(neurons, inputs, i, noOfNeuron)
-			#if i%k == 0 and i != 0:
-				#self.plotGrid(noOfNeuron, neurons)
-			
-	'''
-				index = 0
-				for j in range(noOfNeuron):
-					output = []
-					for _ in range(noOfNeuron):
-						output.append(average[index])
-						index += 1
-					print(output)
-				'''				
+			if i%k == 0 and i != 0:
+				self.plotGrid(noOfNeuron, neurons)	
 
 	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
-
 		#Pick a random input vector
 		iv = inputs[random.randint(0,len(inputs)-1)]
 		#Find winner of cometition
+		
+		#BOTTLENECK
 		winningIndex, winner = self.find_winner(iv[0], neurons[0])
+		
 		neurons[1][winningIndex].append(iv[1])
 		iv = iv[0]
-		tn = 0
+
+		#This for loops runtime scales bad with noOfNeuron. FIX
+		#ITS GRID DISTANCE
+		for i in range(len(neurons[0])):
+			d = self.grid_distance(i, winningIndex, noOfNeuron)
+			tn = self.neighbourhood(d, self.size)
+			neurons[0][i] = np.array(neurons[0][i])
+			iv = np.array(iv)
+			neurons[0][i] = np.add(neurons[0][i], self.lr*tn*np.subtract(iv, neurons[0][i]))
+
+		#print("etter")
+		'''
+		print("før")
 		for neuronIndex, neuron in enumerate(neurons[0]):
+			print(neuronIndex)
 			d = self.grid_distance(neuronIndex, winningIndex, noOfNeuron)
 			tn = self.neighbourhood(d, self.size)
-			#neuron = np.array(neuron)
-			#ivv = np.array(iv)
-			#neuron += np.subtract(self.lr*tn*ivv, self.lr*tn*neuron)
-			#neuron.tolist()
+			
+			a = np.array(neuron)
+			ivv = np.array(iv)
+			a += self.lr*tn*np.subtract(ivv, a)
+			#a.tolist()
+			
+			
 			for i in range(len(neuron)):
 				neuron[i] += self.lr*tn*(iv[i]-neuron[i])
-
-
+		print("etter")
+			#print(a[i], neuron[i], "hello")
+		'''
+		
 
 		#Nødt til å teste om neurons[0] nå er lik som den var på forrige funksjon. Dårlig resultat?
 		'''
@@ -99,6 +110,7 @@ class SOMMnist(object):
 		self.size_decay(iter)
 		self.learning_decay(iter)
 
+	#This is the method that is causing it to run slow
 	def find_winner(self, iv, neurons):
 		mi,mn = -100,[255]*784
 		for index,neuron in enumerate(neurons):
@@ -122,12 +134,14 @@ class SOMMnist(object):
 		return liste
 
 	def grid_distance(self, neuronIndex, winningIndex, noOfNeuron):
-	
-		neuronX, neuronY = self.findIndex(neuronIndex, self.liste)
-		winningX, winningY = self.findIndex(winningIndex, self.liste)
+		#neuronX, neuronY = self.findIndex(neuronIndex, self.liste)
+		#winningX, winningY = self.findIndex(winningIndex, self.liste)
 
+		deltaX = winningIndex%noOfNeuron - neuronIndex%noOfNeuron
+		deltaY = math.floor(winningIndex/noOfNeuron) - math.floor(neuronIndex/noOfNeuron)
+		return np.sqrt(np.square(deltaY)+np.square(deltaX))
 		#return (abs( neuronX - winningX ) + abs( neuronY - winningY ))
-		return (math.sqrt(( neuronX - winningX )**2 + abs( neuronY - winningY )**2))		
+		#return (np.sqrt(np.square( neuronX - winningX ) + np.square( neuronY - winningY )))		
 
 	def size_decay(self, t):
 		self.sizeChanges.append(self.size0*math.exp(-t/self.tsize)-self.size)
@@ -144,7 +158,7 @@ class SOMMnist(object):
 			images.append([a[i],b[i]])
 
 		return noOfImages, images
-
+	
 	#must be generalized. Not sure if 255 is max for all images
 	def normalize(self, data):
 		scale = 255
@@ -184,12 +198,14 @@ class SOMMnist(object):
 		ax.matshow(data, cmap='seismic')
 
 		for (i, j), z in np.ndenumerate(data):
-			ax.text(j, i, '{:0.1f}'.format(z), ha='center', va='center')
+			ax.text(j, i, int(z), ha='center', va='center', color='white')
+		
 		plt.ion()		
 		plt.show()
 		plt.draw()
 		plt.pause(0.1)
 		plt.close()
+		plt.ioff()
 
 	def accuracy(self, neurons, data):
 		average = []
@@ -213,27 +229,34 @@ class SOMMnist(object):
 				correct += 1
 		return (correct/len(data))*100
 
-
 	def main(self):
-		num, data = self.read_data(600)
-		trainData = data[:500]
-		testData = data [500:]
+		num, data = self.read_data(1000)
+		trainData = data[:800]
+		testData = data [800:]
 		scaleFactorTrain, scaledTrain = self.normalize(trainData)
 		scaleFactorTest, scaledTest = self.normalize(testData)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(trainData[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 500)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 100)
 		train = self.accuracy(neurons, trainData)
 		test = self.accuracy(neurons, testData)
 		print(train, "% train", test, "% test")
 		return train, test
 
 #tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
-som = SOMMnist(n_iterations=3000,lr0 = 0.1, tlr = 1000, size0 = 3, tsize = 600, noOfNeuron = 15) 
+som = SOMMnist(n_iterations=5000,lr0 = 0.3, tlr = 2000, size0 = 6, tsize = 800, noOfNeuron = 28) 
 som.main()
 
+
+
 #som = SOMMnist(n_iterations=6000,lr0 = 0.2, tlr = 1000, size0 = 3, tsize = 600, noOfNeuron = 10) 
+#som.main()
 #87.2, 79
 #83.8, 70
 #86.2, 69
 #85.8, 71
+
+
+#som = SOMMnist(n_iterations=4000,lr0 = 0.1, tlr = 1000, size0 = 4, tsize = 600, noOfNeuron = 15) 
+#som.main()
+#86, 76
