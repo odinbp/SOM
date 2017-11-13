@@ -4,6 +4,7 @@ import csv
 import matplotlib.pyplot as plt
 import mnist_basics as mb
 import numpy as np
+from scipy import spatial
 import statistics
 
 plt.rcParams['figure.figsize'] = (11,7)
@@ -58,15 +59,10 @@ class SOMMnist(object):
 		#Pick a random input vector
 		iv = inputs[random.randint(0,len(inputs)-1)]
 		#Find winner of cometition
-		
-		#BOTTLENECK
-		winningIndex, winner = self.find_winner(iv[0], neurons[0])
-		
+		winningIndex, winner =self.determine_winner(iv[0], neurons[0], noOfNeuron)
 		neurons[1][winningIndex].append(iv[1])
 		iv = iv[0]
 
-		#This for loops runtime scales bad with noOfNeuron. FIX
-		#ITS GRID DISTANCE
 		for i in range(len(neurons[0])):
 			d = self.grid_distance(i, winningIndex, noOfNeuron)
 			tn = self.neighbourhood(d, self.size)
@@ -74,50 +70,28 @@ class SOMMnist(object):
 			iv = np.array(iv)
 			neurons[0][i] = np.add(neurons[0][i], self.lr*tn*np.subtract(iv, neurons[0][i]))
 
-		#print("etter")
-		'''
-		print("før")
-		for neuronIndex, neuron in enumerate(neurons[0]):
-			print(neuronIndex)
-			d = self.grid_distance(neuronIndex, winningIndex, noOfNeuron)
-			tn = self.neighbourhood(d, self.size)
-			
-			a = np.array(neuron)
-			ivv = np.array(iv)
-			a += self.lr*tn*np.subtract(ivv, a)
-			#a.tolist()
-			
-			
-			for i in range(len(neuron)):
-				neuron[i] += self.lr*tn*(iv[i]-neuron[i])
-		print("etter")
-			#print(a[i], neuron[i], "hello")
-		'''
-		
-
-		#Nødt til å teste om neurons[0] nå er lik som den var på forrige funksjon. Dårlig resultat?
-		'''
-		iv = np.array(iv)
-		neur = np.array(neurons[0])
-		neur += np.subtract(self.lr*tn*iv, self.lr*tn*neur)
-		#neurons[0] = neur.tolist()
-		a = neur.tolist()
-		if a == neurons[0]:
-			print("True")
-		else:
-			print("False")
-		'''
 		self.size_decay(iter)
 		self.learning_decay(iter)
-
-	#This is the method that is causing it to run slow
-	def find_winner(self, iv, neurons):
-		mi,mn = -100,[255]*784
-		for index,neuron in enumerate(neurons):
-			if self.discriminant(iv,neuron) < self.discriminant(iv,mn):
-				mi = index
-				mn = neuron
-		return mi,mn
+	
+	def determine_winner(self, vector, neurons, noOfNeuron):
+		lowest = math.inf
+		x = []
+		for i in range(0, noOfNeuron*noOfNeuron, noOfNeuron):
+			y = []
+			for j in range(noOfNeuron):
+				y.append(neurons[j+i])
+			x.append(y)
+		
+		for index,neuron in enumerate(x):
+			neuron = np.array(neuron)
+			dist_list = spatial.distance.cdist(neuron, [vector])
+			dist = np.min(dist_list)
+			if dist < lowest:
+				lowest = dist
+				lowest_row = index
+				lowest_col = np.argmin(dist_list)
+		
+		return lowest_row*noOfNeuron+lowest_col, neurons[lowest_row*noOfNeuron+lowest_col]
 
 	def findIndex(self, index, liste):
 		liste = np.array(liste)
@@ -207,7 +181,7 @@ class SOMMnist(object):
 		plt.close()
 		plt.ioff()
 
-	def accuracy(self, neurons, data):
+	def accuracy(self, neurons, data, noOfNeuron):
 		average = []
 		for i in range(len(neurons[1])):
 			lengthOfList = len(neurons[1][i])
@@ -224,7 +198,7 @@ class SOMMnist(object):
 
 		correct = 0
 		for i in range(len(data)):
-			a,b = self.find_winner(data[i][0], neurons[0])
+			a,b = self.determine_winner(data[i][0], neurons[0], noOfNeuron)
 			if average[a] == data[i][1]:
 				correct += 1
 		return (correct/len(data))*100
@@ -237,26 +211,12 @@ class SOMMnist(object):
 		scaleFactorTest, scaledTest = self.normalize(testData)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(trainData[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 100)
-		train = self.accuracy(neurons, trainData)
-		test = self.accuracy(neurons, testData)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 10000)
+		train = self.accuracy(neurons, trainData, noOfNeuron)
+		test = self.accuracy(neurons, testData, noOfNeuron)
 		print(train, "% train", test, "% test")
 		return train, test
 
-#tlr -> learning decay, size0 -> neighbourhood, tsize - > size decay, multiplier - > size ganges med multiplier
 som = SOMMnist(n_iterations=5000,lr0 = 0.3, tlr = 2000, size0 = 6, tsize = 800, noOfNeuron = 28) 
 som.main()
 
-
-
-#som = SOMMnist(n_iterations=6000,lr0 = 0.2, tlr = 1000, size0 = 3, tsize = 600, noOfNeuron = 10) 
-#som.main()
-#87.2, 79
-#83.8, 70
-#86.2, 69
-#85.8, 71
-
-
-#som = SOMMnist(n_iterations=4000,lr0 = 0.1, tlr = 1000, size0 = 4, tsize = 600, noOfNeuron = 15) 
-#som.main()
-#86, 76
