@@ -7,7 +7,7 @@ import numpy as np
 from scipy import spatial
 import statistics
 
-plt.rcParams['figure.figsize'] = (11,7)
+plt.rcParams['figure.figsize'] = (11,8)
 
 class SOMMnist(object):
 
@@ -50,7 +50,7 @@ class SOMMnist(object):
 		#You need only compute total distance (D) and show diagrams at every k steps
 		#print(neurons, "som") #feil
 		for i in range(iterations+1):
-			print(i, "i1")
+			#print(i, "i")
 			self.som_one_step(neurons, inputs, i, noOfNeuron)
 			if i%k == 0 and i != 0:
 				self.plotGrid(noOfNeuron, neurons)	
@@ -108,14 +108,10 @@ class SOMMnist(object):
 		return liste
 
 	def grid_distance(self, neuronIndex, winningIndex, noOfNeuron):
-		#neuronX, neuronY = self.findIndex(neuronIndex, self.liste)
-		#winningX, winningY = self.findIndex(winningIndex, self.liste)
-
 		deltaX = winningIndex%noOfNeuron - neuronIndex%noOfNeuron
 		deltaY = math.floor(winningIndex/noOfNeuron) - math.floor(neuronIndex/noOfNeuron)
 		return np.sqrt(np.square(deltaY)+np.square(deltaX))
-		#return (abs( neuronX - winningX ) + abs( neuronY - winningY ))
-		#return (np.sqrt(np.square( neuronX - winningX ) + np.square( neuronY - winningY )))		
+				
 
 	def size_decay(self, t):
 		self.sizeChanges.append(self.size0*math.exp(-t/self.tsize)-self.size)
@@ -143,11 +139,12 @@ class SOMMnist(object):
 
 	def plotGrid(self, noOfNeuron, neurons):
 		average = []
-		
+		numberNonActive = 0
 		for z in range(len(neurons[1])):
 			lengthOfList = len(neurons[1][z])
 			if lengthOfList == 0:
-				average.append(0)
+				average.append(20)
+				numberNonActive += 1
 			else:
 				total = []
 				for element in neurons[1][z]:
@@ -156,7 +153,7 @@ class SOMMnist(object):
 					average.append(round(statistics.mode(total)))
 				except:
 					average.append(round(statistics.median(total)))
-		
+		print(numberNonActive)
 		data = []
 		index = 0
 		grid = average
@@ -181,6 +178,43 @@ class SOMMnist(object):
 		plt.close()
 		plt.ioff()
 
+	def plotFinished(self, noOfNeuron, neurons, trainAccuracy, testAccuracy):
+		average = []
+		numberNonActive = 0
+		for z in range(len(neurons[1])):
+			lengthOfList = len(neurons[1][z])
+			if lengthOfList == 0:
+				average.append(20)
+				numberNonActive += 1
+			else:
+				total = []
+				for element in neurons[1][z]:
+					total.append(element)
+				try:
+					average.append(round(statistics.mode(total)))
+				except:
+					average.append(round(statistics.median(total)))
+		data = []
+		index = 0
+		grid = average
+		
+		for i in range(noOfNeuron):
+			output = []
+			for j in range(noOfNeuron):
+				output.append(grid[index])
+				index += 1
+			data.append(output)
+		
+		fig, ax = plt.subplots()
+		ax.matshow(data, cmap='seismic')
+
+		for (i, j), z in np.ndenumerate(data):
+			ax.text(j, i, int(z), ha='center', va='center', color='white')
+				
+		plt.title('Training Finished' + '\n' + 'Training Accuracy: ' + str(trainAccuracy) +'%' +  '\n' + 'Testing Accuracy: ' + str(testAccuracy) + '%')
+		plt.show()
+
+
 	def accuracy(self, neurons, data, noOfNeuron):
 		average = []
 		for i in range(len(neurons[1])):
@@ -204,19 +238,21 @@ class SOMMnist(object):
 		return (correct/len(data))*100
 
 	def main(self):
-		num, data = self.read_data(1000)
-		trainData = data[:800]
-		testData = data [800:]
+		num, data = self.read_data(6000)
+		trainData = data[:5400]
+		testData = data [5400:]
 		scaleFactorTrain, scaledTrain = self.normalize(trainData)
 		scaleFactorTest, scaledTest = self.normalize(testData)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(trainData[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 10000)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 5000)
 		train = self.accuracy(neurons, trainData, noOfNeuron)
 		test = self.accuracy(neurons, testData, noOfNeuron)
-		print(train, "% train", test, "% test")
+		self.plotFinished(noOfNeuron, neurons, round(train), round(test))
+		print(round(train), "% train", round(test), "% test")
 		return train, test
 
-som = SOMMnist(n_iterations=5000,lr0 = 0.3, tlr = 2000, size0 = 6, tsize = 800, noOfNeuron = 28) 
+#som = SOMMnist(n_iterations=5000,lr0 = 0.3, tlr = 2000, size0 = 6, tsize = 800, noOfNeuron = 28) 
+som = SOMMnist(n_iterations=5000,lr0 = 0.3, tlr = 2000, size0 = 6, tsize = 800, noOfNeuron = 20) 
 som.main()
 
