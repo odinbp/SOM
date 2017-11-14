@@ -51,6 +51,7 @@ class SOM(object):
 		#You need only compute total distance (D) and show diagrams at every k steps
 		
 		for i in range(iterations+1):
+			print(i, "i")
 			if i%k == 0:
 				self.plot_map(inputs, neurons, i)
 			self.som_one_step(neurons, inputs, i)
