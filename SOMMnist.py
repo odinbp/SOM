@@ -11,7 +11,7 @@ plt.rcParams['figure.figsize'] = (11,8)
 
 class SOMMnist(object):
 
-	def __init__(self, noOfNeuron, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None):
+	def __init__(self, noOfNeuron, n_iterations=100, lr0 = None, tlr = None, size0 = None, tsize = None, k = 500):
 		#something
 		self.lr0 = float(lr0)
 		self.size0 = float(size0)
@@ -24,6 +24,7 @@ class SOMMnist(object):
 		self.lrateChanges = [lr0]
 		self.noOfNeuron = noOfNeuron
 		self.liste = self.makeList(noOfNeuron)
+		self.k = k
 
 	def init_neurons(self, d, count):
 		weights = [[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*count)] 
@@ -45,15 +46,13 @@ class SOMMnist(object):
 			return 0
 		return math.exp((-distance**2)/p)
 		
-	def som(self, neurons, inputs, iterations, k, noOfNeuron):
+	def som(self, neurons, inputs, iterations, noOfNeuron):
 		
 		#You need only compute total distance (D) and show diagrams at every k steps
-		#print(neurons, "som") #feil
 		for i in range(iterations+1):
-			#print(i, "i")
 			self.som_one_step(neurons, inputs, i, noOfNeuron)
-			if i%k == 0 and i != 0:
-				self.plotGrid(noOfNeuron, neurons)	
+			if i%self.k == 0 and i != 0:
+				self.plotGrid(noOfNeuron, neurons,i)	
 
 	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
 		#Pick a random input vector
@@ -137,14 +136,12 @@ class SOMMnist(object):
 				data[d][0][e] = data[d][0][e]/scale 
 		return scale,data
 
-	def plotGrid(self, noOfNeuron, neurons):
+	def plotGrid(self, noOfNeuron, neurons, iteration):
 		average = []
-		numberNonActive = 0
 		for z in range(len(neurons[1])):
 			lengthOfList = len(neurons[1][z])
 			if lengthOfList == 0:
-				average.append(20)
-				numberNonActive += 1
+				average.append(0)
 			else:
 				total = []
 				for element in neurons[1][z]:
@@ -153,7 +150,6 @@ class SOMMnist(object):
 					average.append(round(statistics.mode(total)))
 				except:
 					average.append(round(statistics.median(total)))
-		print(numberNonActive)
 		data = []
 		index = 0
 		grid = average
@@ -170,22 +166,22 @@ class SOMMnist(object):
 
 		for (i, j), z in np.ndenumerate(data):
 			ax.text(j, i, int(z), ha='center', va='center', color='white')
+
+		plt.title("Iteration: " + str(iteration))
 		
 		plt.ion()		
 		plt.show()
 		plt.draw()
-		plt.pause(0.1)
+		plt.pause(1)
 		plt.close()
 		plt.ioff()
 
 	def plotFinished(self, noOfNeuron, neurons, trainAccuracy, testAccuracy):
 		average = []
-		numberNonActive = 0
 		for z in range(len(neurons[1])):
 			lengthOfList = len(neurons[1][z])
 			if lengthOfList == 0:
-				average.append(20)
-				numberNonActive += 1
+				average.append(0)
 			else:
 				total = []
 				for element in neurons[1][z]:
@@ -245,14 +241,10 @@ class SOMMnist(object):
 		scaleFactorTest, scaledTest = self.normalize(testData)
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(trainData[0][0]), noOfNeuron)#noOfImages)
-		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations, k = 5000)
+		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations)
 		train = self.accuracy(neurons, trainData, noOfNeuron)
 		test = self.accuracy(neurons, testData, noOfNeuron)
-		self.plotFinished(noOfNeuron, neurons, round(train), round(test))
-		print(round(train), "% train", round(test), "% test")
+		self.plotFinished(noOfNeuron, neurons, round(train,2), round(test,2))
 		return train, test
 
-#som = SOMMnist(n_iterations=5000,lr0 = 0.3, tlr = 2000, size0 = 6, tsize = 800, noOfNeuron = 28) 
-som = SOMMnist(n_iterations=5000,lr0 = 0.3, tlr = 2000, size0 = 6, tsize = 800, noOfNeuron = 20) 
-som.main()
 
