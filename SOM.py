@@ -2,6 +2,8 @@ import math
 import random
 import csv
 import matplotlib.pyplot as plt
+import numpy as np
+import scipy as sp
 plt.rcParams['figure.figsize'] = (11,7)
 
 class SOM(object):
@@ -24,8 +26,8 @@ class SOM(object):
 
 		self.n_iterations = n_iterations
 
-		self.sizeChanges = [size0]
-		self.lrateChanges = [lr0]
+		self.sizeChanges = [(0,1)]
+		self.lrateChanges = [(0,1)]
 
 	def init_neurons(self, d, count):
 		return[[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*self.multiplier)]
@@ -70,6 +72,7 @@ class SOM(object):
 		self.size_decay(iter)
 		self.learning_decay(iter)
 
+
 	def find_winner(self, iv, neurons):
 		mi,mn = -100,[999999999999999.0,999999999999999.0]
 		for index,neuron in enumerate(neurons):
@@ -83,23 +86,24 @@ class SOM(object):
 		return min(d, n-d)
 
 	def size_decay(self, t):
-		self.sizeChanges.append(self.size0*math.exp(-t/self.tsize)-self.size)
+		self.sizeChanges.append((t, math.exp(-t/self.tsize)))
 		self.size = self.size0*math.exp(-t/self.tsize)
 		
 
 	def learning_decay(self, t):
-		self.lrateChanges.append(self.lr0*math.exp(-t/self.tlr)-self.lr)
+		self.lrateChanges.append((t, math.exp(-t/self.tlr)))
 		self.lr = self.lr0*math.exp(-t/self.tlr)
 
 	def main(self, file):
 		noCities, cities = self.read_data(file)
 		scaleFactor, scaled = self.normalize(cities)
 		neurons = self.init_neurons(len(cities[0]), noCities)
-		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 100)
+		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations, k = 500)
 		coordinates, distance = self.calculate_distance(scaled, neurons)
 		distance *= scaleFactor
 		plt.close()
 		self.plot_finished(coordinates, distance)
+		self.plot_history(self.sizeChanges, self.lrateChanges)
 		return distance
 
 	def read_data(self, file):
@@ -147,7 +151,7 @@ class SOM(object):
 
 		plt.title('Final path' + '\n' + 'Total distance travelled: ' + str(distance))
 
-		plt.show()
+		#plt.show()
 
 	def calculate_distance(self, inputs, neurons):
 
@@ -174,19 +178,42 @@ class SOM(object):
 
 		return marching_order, distance
 
+	def simple_plot(self, yvals,xvals=None,xtitle='X',ytitle='Y',title='Y = F(X)'):
+	    xvals = xvals if xvals is not None else list(range(len(yvals)))
+	    plt.plot(xvals,yvals)
+	    plt.xlabel(xtitle); plt.ylabel(ytitle); plt.title(title)
+	    plt.draw()
+
+	# Each history is a list of pairs (timestamp, value).
+	def plot_history(self, sizeChanges = [],lrateChanges=[],xtitle="Timestep",ytitle="Rate [Normalized to 1]",title="Change in neighbourhood and learning rate"):
+		plt.figure(2)
+		plt.ion()
+		if len(sizeChanges) > 0:
+			self.simple_plot([p[1] for p in sizeChanges], [p[0] for p in sizeChanges],xtitle=xtitle,ytitle=ytitle,title=title)
+			#PLT.hold(True)
+		if len(lrateChanges) > 0:
+			self.simple_plot([p[1] for p in lrateChanges], [p[0] for p in lrateChanges],xtitle=xtitle,ytitle=ytitle,title=title)
+		plt.ioff()
+		plt.show(2)
+
 
 
 noCi = {1:52, 2:130, 3:101, 4:100, 5:105, 6:76, 7:124, 8:99}
 
+
 #som = SOM(n_iterations=4000,lr0 = 0.5, tlr = 800, size0 = noCi[1]/10, tsize = 500, multiplier = 8) 
 '''
-d = 0
-for i in range(10):
-	som = SOM(n_iterations= 3000,lr0 = 0.7, tlr = 2000, size0 = noCi[8]/10, tsize = 500, multiplier = 8) 
-	k = som.main('8.txt')
-	d += k
-	print(k)
-print("Avg: ", d/10)
+for i in range(1,9):
+	d = []
+	largest = 0
+	smallest = 999999
+	for j in range(50):
+		som = SOM(n_iterations= 4000,lr0 = 0.8, tlr = 2000, size0 = 50, tsize = 500, multiplier = 8) 
+		k = som.main(str(i)+'.txt')
+		d.append(k)
+		if k > largest : largest = k
+		if k < smallest : smallest = k	 
+	print(i, "	0.8,2000,50,500,8: " "	 |	Avg: ", np.mean(d), "	|	Best: ", smallest, "	|	Worst: ", largest, "	|	SD: ", np.std(d))
 '''
-som = SOM(n_iterations= 3000,lr0 = 0.7, tlr = 2000, size0 = noCi[1]/10, tsize = 500, multiplier = 8) 
-print(som.main('1.txt'))
+som = SOM(n_iterations= 3000,lr0 = 0.7, tlr = 2000, size0 = noCi[2]/10, tsize = 500, multiplier = 8) 
+som.main('2.txt')
