@@ -25,6 +25,8 @@ class SOMMnist(object):
 		self.noOfNeuron = noOfNeuron
 		self.liste = self.makeList(noOfNeuron)
 		self.k = k
+		self.testingNeurons = set()
+
 
 	def init_neurons(self, d, count):
 		weights = [[random.uniform(0.0,1.0) for i in range(d)] for j in range(count*count)] 
@@ -56,7 +58,9 @@ class SOMMnist(object):
 
 	def som_one_step(self, neurons, inputs, iter, noOfNeuron):
 		#Pick a random input vector
-		iv = inputs[random.randint(0,len(inputs)-1)]
+		testingIndex = random.randint(0,len(inputs)-1)
+		iv = inputs[testingIndex]
+		self.testingNeurons.add(testingIndex)
 		#Find winner of cometition
 		winningIndex, winner =self.determine_winner(iv[0], neurons[0], noOfNeuron)
 		neurons[1][winningIndex].append(iv[1])
@@ -242,7 +246,11 @@ class SOMMnist(object):
 		noOfNeuron = self.noOfNeuron
 		neurons = self.init_neurons(len(trainData[0][0]), noOfNeuron)#noOfImages)
 		self.som(noOfNeuron = noOfNeuron, neurons = neurons, inputs = scaledTrain, iterations = self.n_iterations)
-		train = self.accuracy(neurons, trainData, noOfNeuron)
+		testPoints = []
+		for i in self.testingNeurons:
+			testPoints.append(trainData[i])
+
+		train = self.accuracy(neurons, testPoints, noOfNeuron)
 		test = self.accuracy(neurons, testData, noOfNeuron)
 		self.plotFinished(noOfNeuron, neurons, round(train,2), round(test,2))
 		return train, test

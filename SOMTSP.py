@@ -47,8 +47,8 @@ class SOMTSP(object):
 		#You need only compute total distance (D) and show diagrams at every k steps
 		
 		for i in range(iterations+1):
-			#if i%self.k == 0:
-			#	self.plot_map(inputs, neurons, i)
+			if i%self.k == 0:
+				self.plot_map(inputs, neurons, i)
 			self.som_one_step(neurons, inputs, i)
 			
 	def som_one_step(self, neurons, inputs, iter):
@@ -96,9 +96,9 @@ class SOMTSP(object):
 		self.som(neurons = neurons, inputs = scaled, iterations = self.n_iterations)
 		coordinates, distance = self.calculate_distance(scaled, neurons)
 		distance *= scaleFactor
-		#plt.close()
-		#self.plot_finished(coordinates, distance)
-		#self.plot_history(self.sizeChanges, self.lrateChanges)
+		plt.close()
+		self.plot_finished(coordinates, distance)
+		self.plot_history(self.sizeChanges, self.lrateChanges)
 		return distance
 
 	def read_data(self, file):
