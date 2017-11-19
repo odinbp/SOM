@@ -53,7 +53,25 @@ class SOM(object):
 				k = int(input())
 				print("What's your desired dataset [1, 2, 3, 4, 5, 6, 7, 8 , 9(new), 10(new)] ?")
 				data = int(input())
-				somtsp = SOMTSP(n_iterations= 3000,lr0 = 0.7, tlr = 2000, size0 = 1/10, tsize = 500, multiplier = 8, k = k, file = str(data) + '.txt') 
+				print("Press 1 for optimized parameters and 2 to specify")
+				l = int(input())
+				if l == 1:
+					somtsp = SOMTSP(n_iterations= 3000,lr0 = 0.7, tlr = 2000, size0 = 1/10, tsize = 500, multiplier = 8, k = k, file = str(data) + '.txt') 
+				elif l == 2:
+					print("Number of iterations?")
+					n_iterations = int(input())
+					print("Learning rate?")
+					lr0 = float(input())
+					print("Learning rate Tau")
+					tlr = float(input())
+					print("Neighbourhood Size?")
+					size0 = float(input())
+					print("Size Tau rate?")
+					tsize = int(input())
+					print("Multiplier?")
+					multiplier = int(input())
+					somtsp = SOMTSP(n_iterations=n_iterations,lr0 = lr0, tlr = tlr, size0 = size0, tsize = tsize, multiplier = multiplier,
+					k = k, file = str(data) + '.txt')
 				somtsp.main()
 
 			else: 
